@@ -5,3 +5,12 @@
 .team {
     margin-bottom: 1em;
 }
+
+.portrait-img {
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
