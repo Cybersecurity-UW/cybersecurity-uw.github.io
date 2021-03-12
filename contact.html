@@ -42,6 +42,49 @@
 </head>
 
 <body>
+    <script> 
+        $(function() {
+            const submit = $("submit-button");
+            const msg = $("error-msg");
+            submit.click(function() {
+                submit.attr('disabled', true);
+                var validInput = true;
+                msg.html("");
+                var data = {
+                    email: $("#email").val(),
+                    name: $("#name").val(),
+                    date: new Date().toLocaleDateString,
+                    content: $("#content").val()
+                }
+                if ((data.email == '') | (data.name == '') | (data.content == '')) {
+                    msg.html('Please fill out all required fields');
+                    validInput = false;
+                }
+                if (validInput) {
+                    $.ajax({ 
+                        url: "testMail.txt",
+                        method: "POST",
+                        dataType: "json",
+                        data: data,
+                        success: function (result) {
+                            if(result.status) {
+                                // add redirect to page with popup?
+                            } else {
+                                msg.html(result.msg);
+                                submit.attr('disabled', false);
+                            }
+                        }, 
+                        error: function (jqXHR, textstatus, errorThrown) {
+                            msg.html(jqXHR.responseJSON);
+                            submit.attr('disabled', false);
+                        }
+                    });
+                } else { 
+                    submit.attr('disabled', false);
+                }
+            });
+        });
+        </script>
     <div id="wrapper " class="behind " style="background-color:var(--realBackground); background-size:cover">
         <nav class="navbar navbar-default " style="height:75px !important; padding:0%; background-color: rgb(119, 115, 127);">
             <div class="container " style="height:100%; padding:0%;">
@@ -88,7 +131,7 @@
                 <br>
                 <br>
                 <br>
-                <div class="container" style="width: 30%; margin: auto;">
+                <div class="container" style="width: 75%; margin: auto;">
                     <div class="letters"><span class="letter ">C</span><span class="letter ">o</span><span class="letter ">n</span><span class="letter ">t</span>
                         <span class="letter ">a</span><span class="letter ">c</span><span class="letter ">t</span><span class="letter" style="margin-left: 1em">u</span><span class="letter">s</span></div>
                 </div>
@@ -96,23 +139,21 @@
         </header>
 
         <div class="container">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="email">Email</label>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
+            <div class="col-md-offset-11">
+                <a class="long-btn btn primary-button" href="index">Back</a>
+            </div>
+            <div class="input-group login-signup-input">
+                <div class="input-group-addon">Your Name:</div>
+                <input class="form-control" type="text" id="name" placeholder="Full Name">
+            </div>
+            <div class="input-group login-signup-input">
+                <div class="input-group-addon">Email:</div>
+                <input class="form-control" type="text" id="email" placeholder="email@wisc.edu">
+            </div>
+            <div class="login-signup-input">
+                <textarea class="form-control" type="text" id="content" rows="10"></textarea>
+            </div>
+            <button id="submit-button" class="btn long-btn primary-button">Submit</button>
           </div>
 
         <footer>

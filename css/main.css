@@ -42,3 +42,29 @@ input[type=text], select, textarea {
     background-color: #45a049;
   }
   
+  .long-btn {
+    width:100%
+  }
+
+  .primary-button {
+    padding: 6px 12px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    background-color: #EF6C00;
+    border-color: #EF6C00;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+
+.login-signup-input {
+  margin:auto;
+  width: 100%;
+}
+
+.login-signup-input .input-group-addon {
+  width: 100%;
+}
