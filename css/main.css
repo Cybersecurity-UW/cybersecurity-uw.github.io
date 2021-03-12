@@ -24,7 +24,8 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #aba7c1;
   }
   
   /* Style the submit button with a specific background color etc */
@@ -42,23 +43,10 @@ input[type=text], select, textarea {
     background-color: #45a049;
   }
   
-  .long-btn {
-    width:100%
-  }
-
-  .primary-button {
-    padding: 6px 12px;
-    border-radius: 2px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: inherit;
-    color: white;
-    background-color: #EF6C00;
-    border-color: #EF6C00;
-    border-radius: 5px;
-    font-weight: 300;
-  }
+::placeholder {
+  color:grey;
+  opacity: .5;
+}
 
 .login-signup-input {
   margin:auto;
