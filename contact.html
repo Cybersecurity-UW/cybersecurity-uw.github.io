@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!--basic styling-->
     <link rel="stylesheet" type="text/css" href="css/letter.css"> <!--title animation-->
     <link rel="stylesheet" type="text/css" href="css/footer.css"> <!--general text fonts-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
 
     <script src="js/bootstrap.min.js"></script> 
     <script src="js/jquery-1.11.1.min.js"></script> 
@@ -23,53 +25,10 @@
 </head>
 
 <body>
-    <script> 
-        $(function() {
-            const submit = $("submit-button");
-            const msg = $("error-msg");
-            submit.click(function() {
-                submit.attr('disabled', true);
-                var validInput = true;
-                msg.html("");
-                var data = {
-                    email: $("#email").val(),
-                    name: $("#name").val(),
-                    date: new Date().toLocaleDateString,
-                    content: $("#content").val()
-                }
-                if ((data.email == '') | (data.name == '') | (data.content == '')) {
-                    msg.html('Please fill out all required fields');
-                    validInput = false;
-                }
-                if (validInput) {
-                    $.ajax({ 
-                        url: "testMail.txt",
-                        method: "POST",
-                        dataType: "json",
-                        data: data,
-                        success: function (result) {
-                            if(result.status) {
-                                // add redirect to page with popup?
-                            } else {
-                                msg.html(result.msg);
-                                submit.attr('disabled', false);
-                            }
-                        }, 
-                        error: function (jqXHR, textstatus, errorThrown) {
-                            msg.html(jqXHR.responseJSON);
-                            submit.attr('disabled', false);
-                        }
-                    });
-                } else { 
-                    submit.attr('disabled', false);
-                }
-            });
-        });
-        </script>
    <nav class="navbar navbar-inverse navbar-fixed-top"> <!--padding changes height of text in box   style="height:60px; padding:0%; top:-1vh; background-color: rgb(119, 115, 127);"-->
     <div class="container-fluid"> <!--aligns to the top left corner-->
         <div class="navbar-header">
-            <a class="navbar-brand" href="">CybersecurityUW</a>
+            <a class="navbar-brand" href="index">CybersecurityUW</a>
 
         </div>
         <ul class="nav navbar-nav">
@@ -94,31 +53,20 @@
             <br>
             <br>
             <br>
-            <div class="container" style="width: 50%; margin: auto;">
-                <div class="letters"><span class="letter ">C</span><span class="letter ">o</span><span class="letter ">n</span><span class="letter ">t</span>
-                    <span class="letter ">a</span><span class="letter ">c</span><span class="letter ">t</span><span class="letter" style="margin-left: 1em">u</span><span class="letter">s</span></div>
+            <div class="container" style="width: 35%; margin: auto;">
+                <div class="letters"><span class="letter ">m</span><span class="letter">o</span><span class="letter">r</span><span class="letter">e</span>
+                    <span class="letter" style="margin-left:1em; margin-right: -0.25em">i</span><span class="letter">n</span><span class="letter ">f</span><span class="letter">o</span></div>
+            </div>
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <div id="horiz-line " style="width:500px; min-width: 40%; max-width:100vw; margin-left:auto; margin-right:auto; height:1vh; border:none; background-color:var(--highlight1dark); "></div>
+                <br>
+                <br>
             </div>
         </div>
     </header>
-
-    <div class="container">
-        <div class="col-md-offset-11">
-            <a class="btn btn-green" href="index">Back</a>
-        </div>
-        <div class="input-group  login-signup-input">
-            <div class="input-group-addon">Your Name:</div>
-            <input class="form-control" type="text" id="name" placeholder="Full Name">
-        </div>
-        <div class="input-group login-signup-input">
-            <div class="input-group-addon">Email:</div>
-            <input class="form-control" type="text" id="email" placeholder="email@wisc.edu">
-        </div>
-        <div class="login-signup-input">
-            <textarea class="form-control" type="text" id="content" rows="10"></textarea>
-        </div>
-        <button id="submit-button" class="btn btn-green">Submit</button>
-        </div>
-
     <footer>
         <div class="container ">
             <div class="row ">

@@ -4,7 +4,6 @@
 }
 
 body {
-    --colorBackground: #585272;
     --colorDeepBackground: #232323;
     --colorHighlight: #710004;
     --colorText: #ffffff;
@@ -48,6 +47,8 @@ p.small {
 footer {
     width: 100%;
     background: var(--colorDeepBackground);
+    position:relative;
+    bottom: 0;
 }
 
 footer .social {
