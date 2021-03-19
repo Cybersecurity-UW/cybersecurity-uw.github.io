@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Proxima Bold';
-    src: url(../fonts/ProximaNova-Bold.otf);
-}
+
 
 body {
     --colorDeepBackground: #232323;
@@ -12,7 +9,6 @@ body {
 
 
 header .heading {
-    font-family: 'Proxima Bold';
     color: white;
     font-size: 40px;
     margin: 10px 0;
