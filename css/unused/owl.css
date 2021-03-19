@@ -12,6 +12,104 @@ body{
   --colorBackgroundHighlight:rgb(224, 71, 0);
 }
 
+/* Owl Slider */
+.owl-book {
+  width: 80%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.owl-book .item {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, .2);
+}
+
+.owl-book .item .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.owl-book .item:hover .overlay {
+  opacity: 1;
+}
+
+.owl-book .item img {
+  width: 100%;
+  margin: 15% auto;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.owl-book .item .overlay>a {
+  position: absolute;
+  display: inline-block;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+  font-size: 24px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+  color: var(--colorText);
+}
+
+.owl-book .item .overlay>a:hover {
+  color: var(--colorText);
+  background: var(--colorBackgroundHighlight);
+}
+
+.owl-reviews .item {
+  padding: 0 15px;
+}
+
+.owl-reviews .owl-controls {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 30px);
+}
+
+.owl-reviews .owl-controls .owl-prev,
+.owl-reviews .owl-controls .owl-next {
+  position: absolute;
+  font-size: 36px;
+  color: var(--colorText);
+  transition: all 0.3s ease;
+}
+
+.owl-reviews .owl-controls .owl-prev:hover,
+.owl-reviews .owl-controls .owl-next:hover {
+  color: var(--colorText);
+}
+
+.owl-reviews .owl-controls .owl-prev {
+  left: -40px;
+}
+
+.owl-reviews .owl-controls .owl-next {
+  right: -40px;
+}
+
+@media(max-width:768px) {
+  .owl-reviews .owl-controls {
+      position: relative;
+      text-align: center;
+      top: -30px;
+  }
+  .owl-reviews .owl-controls .owl-prev,
+  .owl-reviews .owl-controls .owl-next {
+      position: relative;
+      display: inline-block;
+      font-size: 36px;
+  }
+}
+
 .review{
   background-color: var(--colorBackground);
   background: var(--colorBackground);
