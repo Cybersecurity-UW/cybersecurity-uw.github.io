@@ -1,11 +1,26 @@
-@font-face {
-  font-family: 'Proxima';
-  src: url(../fonts/ProximaNova-Regular.otf);
+h1 {
+  font-size: 40px;
 }
 
-@font-face {
-  font-family: 'Proxima Bold';
-  src: url(../fonts/ProximaNova-Bold.otf);
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
 }
 
 /* For circular images*/
