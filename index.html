@@ -2,23 +2,59 @@
 <html lang="en">
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/logo.PNG" ">
+    <link rel="icon " type="image/png " sizes="32x32 " href="/img/logo.PNG "">
+
+
     <meta charset="UTF-8 ">
     <title>Cybersecurity UW</title>
+    <link rel="stylesheet " type="text/css " href="css/bootstrap.css "> <!--basic styling-->
+    <link rel="stylesheet " type="text/css " href="css/letter.css "> <!--title animation-->
+    <link id="main " rel="stylesheet " type="text/css " href="css/publisher.css "> <!--general text fonts-->
+    <style>
+        body {
+            --websiteBackground: #080108;
+            --lightBackground: #0f000f;
+            --darkBackground: #5f4969;
+            --highlight1: #aba7c1;
+            --highlight1dark: #C5050C;
+            --realBackground: #0f000f;
+            --GalleryBackground: #2a2933;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background: var(--websiteBackground);
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: var(--highlight1dark);
+        }
+        
+        a {
+            text-decoration: underline;
+        }
+        
+        .btn,
+        .scrollto {
+            text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
-    <div id="wrapper" class="behind" style="background-color:var(--realBackground); background-size:cover; ">
-        <nav class="navbar navbar-default  style="height:75px !important; padding:0%; background-color: rgb(119, 115, 127);">
-            <div class="container " style="height:100%; padding:0%;">
-                <div class="navbar-header" style="height:100%; padding: 0%;">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"></button>
+    <div id="wrapper " class="behind" style="background-color:var(--realBackground); background-size:cover; "> <!--id from publisher.css-->
+        <nav class="navbar navbar-default " style="height:75px !important; padding:0%; background-color: rgb(119, 115, 127);"> <!--padding changes height of text in box-->
+            <div class="container " style="height:100%;">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header " style="height:100%;">
                     <a href="# " style="height:100%; ">
                         <img src="./img/logo.PNG" alt=" " style="height:8vh; margin-top:0; margin-bottom: 0; ">
                     </a>
                 </div>
-                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1 ">
-                    <ul class="nav navbar-nav navbar-left main-nav ">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left main-nav">
                         <li>
                             <a href="index">Home</a> 
                         </li>
@@ -82,12 +118,6 @@
                 </div>
             </div>
         </header>
-        <style>
-            #link:hover {
-                color: green;
-            }
-        </style>
-
 
         <footer>
             <div class="container ">
@@ -102,6 +132,14 @@
                 </div>
             </div>
         </footer>
+        <!--all required for scroll animation?-->
+        <script src="js/wow.min.js "></script>
+        <script src="js/jquery-1.11.1.min.js"></script> 
+        <script src="js/owl.carousel.js "></script> 
+        <script src="js/jquery.onepagenav.js "></script> 
+        <script src="js/jquery.form-validator.js "></script>
+        <script src="js/main.js "></script>
+        <script src="js/bootstrap.min.js "></script>
 </body>
 
 </html>
