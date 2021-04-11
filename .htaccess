@@ -14,6 +14,12 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^(.*)$ $1.html [NC,L]
 
+# redirect index to /, not sure if it does anything
+
+RewriteRule ^index\.html$ https://cybersecurityuw.tech
+
+DirectoryIndex index.html
+
 # 404 stuff here
 
-ErrorDocument 404 http://cybersecurityuw.tech/404
+ErrorDocument 404 https://cybersecurityuw.tech/404

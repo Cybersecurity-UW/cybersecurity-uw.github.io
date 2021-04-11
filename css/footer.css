@@ -8,43 +8,19 @@ body {
 }
 
 
-header .heading {
-    color: white;
-    font-size: 40px;
-    margin: 10px 0;
-}
 
-header .subheading {
-    color: white;
-    opacity: .5;
-    font-size: 24px;
-    margin: 10px 0px 30px;
-}
-
-header p {
-    margin: 20px 0;
-    font-size: 20px;
-    color: var(--colorText);
-    line-height: 34px;
-}
-
-p { /*Used in footer*/
-    margin: 20px 0;
-    font-size: 30px;
-    line-height: 42px;
-}
-
-p.small {
-    font-size: 18px;
-    line-height: 36px;
-    color: var(--colorText);
-}
 
 footer {
     width: 100%;
     background: var(--colorDeepBackground);
-    position:relative;
+    position:bottom;
     bottom: 0;
+}
+
+footer .footer-text  {
+        margin: 20px 0;
+        font-size: 22px;
+        line-height: 21px;
 }
 
 footer .social {

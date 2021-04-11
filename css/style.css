@@ -1,0 +1,141 @@
+/* this css file covers everything that wasn't imported into bootstrap.css and other css files. 
+*/
+
+html, body {
+  --colorBackgroundHighlight: #9288D3;
+  --colorHighlight: #A4A0E0;
+  --colorText: #ffffff;
+  --colorRealBackground: #0f000f;
+  --colorButton: #C5050C;
+  --colorButtonHover: #7e0004;
+}
+
+header p {
+  margin: 20px 0;
+  font-size: 20px;
+  color: var(--colorText);
+  line-height: 34px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 25px;
+  /* padding: 15px 20px; */
+  margin: 10px 5px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  padding: .5rem 1rem;
+  background: var(--colorButton)
+}
+
+.btn:hover {
+  background: var(--colorButtonHover)
+}
+.btn.btn-contact {
+  background: var(--colorBackgroundHighlight);
+  border: 3px solid var(--colorHighlight);
+  color: var(--colorText);
+}
+
+.content {
+  width: 90%;
+  margin: 30px auto 30px;
+  border: 1px solid red;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both
+}
+
+.content .main-content {
+  width: 70%;
+  float: left;
+  border: 1px solid blue;
+}
+.content .main-content .post {
+  width: 95%;
+  height: 270px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background: var(--colorRealBackground);
+  position: relative;
+}
+
+.content .main-content .post .readmore {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.content .main-content .post .post-image {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.content .main-content .post .post-preview {
+  width: 60%;
+  padding: 10px;
+  float: right;
+}
+
+.content .main-content .post .post-preview .preview-text {
+  font-size: 12px;
+}
+
+.content .main-content .past-meetings-title {
+  margin: 20px;
+}
+
+
+.content .sidebar {
+  width: 30%;
+  float: left;
+  border: 1px dashed green;
+  height: 300px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+/* For circular images*/
+.center {
+    text-align: center;
+}
+
+.team {
+    margin-bottom: 1em;
+}
+
+.portrait-img {
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
