@@ -8,6 +8,9 @@ html, body {
   --colorRealBackground: #0f000f;
   --colorButton: #C5050C;
   --colorButtonHover: #7e0004;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 header p {
@@ -31,6 +34,19 @@ header p {
 .btn:hover {
   background: var(--colorButtonHover)
 }
+
+.text-input {
+  padding: .7rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--colorHighlight);
+  outline: none;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+
+}
 .btn.btn-contact {
   background: var(--colorBackgroundHighlight);
   border: 3px solid var(--colorHighlight);
@@ -39,8 +55,9 @@ header p {
 
 .content {
   width: 90%;
+  height: 100%;
   margin: 30px auto 30px;
-  border: 1px solid red;
+  /* border: 1px solid red; for debugging */
 }
 
 .clearfix::after {
@@ -52,12 +69,12 @@ header p {
 .content .main-content {
   width: 70%;
   float: left;
-  border: 1px solid blue;
+  /* border: 1px solid blue; for debugging*/ 
 }
 .content .main-content .post {
   width: 95%;
   height: 270px;
-  margin: 10px auto;
+  margin: 20px auto;
   border-radius: 5px;
   background: var(--colorRealBackground);
   position: relative;
@@ -67,10 +84,12 @@ header p {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  font-size: 20px;
 }
 
 .content .main-content .post .post-image {
   width: 40%;
+  max-width: 292px;
   height: 100%;
   float: left;
 }
@@ -93,9 +112,45 @@ header p {
 .content .sidebar {
   width: 30%;
   float: left;
-  border: 1px dashed green;
   height: 300px;
 }
+
+.content .sidebar .section {
+  background-color: var(--colorRealBackground);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content .sidebar .section .section-title {
+  margin: 10px 0px 10px 0px;
+}
+
+.content .sidebar .section.search {
+  margin-top: 80px
+}
+
+.content .sidebar .section.topics ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; 
+  border-top: 1px solid var(--colorBackgroundHighlight);
+
+}
+
+.content .sidebar .section.topics ul li a {
+  border-bottom: 1px solid var(--colorBackgroundHighlight);
+  display: block;
+  padding: 15px 0px 15px 0px;
+  transition: all 0.3s;
+}
+
+.content .sidebar .section.topics ul li a:hover {
+  padding-left: 10px;
+  transition: all 0.3s;
+}
+
+
 
 h1 {
   font-size: 40px;
