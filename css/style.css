@@ -53,9 +53,12 @@ header p {
   color: var(--colorText);
 }
 
+.page-wrapper {
+  height: 100%;
+}
+
 .content {
   width: 90%;
-  height: 100%;
   margin: 30px auto 30px;
   /* border: 1px solid red; for debugging */
 }
@@ -102,6 +105,7 @@ header p {
 
 .content .main-content .post .post-preview .preview-text {
   font-size: 12px;
+  padding-top: 10px;
 }
 
 .content .main-content .past-meetings-title {
