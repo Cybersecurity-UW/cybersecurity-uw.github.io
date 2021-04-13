@@ -9,9 +9,23 @@ html, body {
   --colorButton: #C5050C;
   --colorButtonHover: #7e0004;
   --highlight1dark: #C5050C;
+  --colorDeepBackground: #232323;
+  --textFooter: #555555;
   height: 100%;
   padding: 0px;
   margin: 0px;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+/*add to fix fooder not going to bottom*/
+/* remove once there is enough stuff on page or else it'll break */
+
+.page-wrapper.broken-footer{
+  height: 100%;
+  position: relative;
 }
 
 .title {
@@ -72,14 +86,10 @@ html, body {
   color: var(--colorText);
 }
 
-.page-wrapper {
-  height: 100%;
-}
 
 .content {
   width: 90%;
   margin: 30px auto 30px;
-  /* border: 1px solid red; for debugging */
 }
 
 .clearfix::after {
@@ -93,6 +103,23 @@ html, body {
   float: left;
   /* border: 1px solid blue; for debugging*/ 
 }
+
+.content .main-content.single {
+  background: var(--colorRealBackground);
+  padding: 20px 50px;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.content .main-content.single .post-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content .main-content.single .post-content p {
+  font-size: 1.2em;
+}
+
 .content .main-content .post {
   width: 95%;
   height: 270px;
@@ -131,11 +158,14 @@ html, body {
   margin: 20px;
 }
 
-
 .content .sidebar {
   width: 30%;
   float: left;
   height: 300px;
+}
+
+.content .sidebar.single {
+  padding: 0px 10px;
 }
 
 .content .sidebar .section {
@@ -216,4 +246,16 @@ h6 {
     margin-right: auto;
     margin-bottom: 0.5em;
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--colorDeepBackground);
+  height: 40px; 
+  color: var(--textFooter);
+  padding-top: 10px;
+  position: relative;
+  
+}
+
 
