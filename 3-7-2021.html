@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <meta charset="UTF-8 ">
+    <title>Blog</title>
+
+    <!--for favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+        
+    <!--basic styling-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!--general text fonts-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <style>
+        body {
+            --darkBackground: #5f4969;
+            --highlight1: #d7d5e1;
+            --highlight1dark: #C5050C;
+            --realBackground: #0f000f;
+            --colorHighlight: #ec9b9e;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!--padding changes height of text in box   style="height:60px; padding:0%; top:-1vh; background-color: rgb(119, 115, 127);"-->
+        <div class="container-fluid">
+            <!--aligns to the top left corner-->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">CybersecurityUW</a>
+
+            </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="meetings">Meetings</a>
+                </li>
+                <li>
+                    <a href="people">People</a>
+                </li>
+                <li>
+                    <a href="links">Club Links</a>
+                </li>
+                <li>
+                    <a href="contact">More Info</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="page-wrapper">
+        <!-- Content -->
+        <div class="content clearfix">
+            <!--main content-->
+            <div class="main-content single">
+                <h1 class="post-title">Another Exploit in the Metasploit Framework.</h1>
+
+                <div class="post-content">
+                    <p>
+                        We will be using the virtual machines again from last meeting. 
+                        If you have not already downloaded them, the instructions are attached below.
+                         We recommend that you download the VMs <em>before</em> the meeting since it may take a
+                          while to download. The following VMs are what we will be using to run our next exploit:
+                    </p>
+                    <ul>Kali Linux 2020.4</ul>
+                    <ul>Windows 7 Professional SP1 with RDP enabled</ul>
+
+                    <p>Note: There was a new Kali Linux release since last meeting. If you want to update, 
+                        check the instructions towards the bottom of the email.</p>
+                    <br>
+                    <p>
+                        These VMs can be downloaded <a href="https://uwmadison.box.com/v/CSEC-Virtual-Box-VMs">here</a>
+                    </p>
+                    <br>
+                    <p>These Virtual machines are large (Downloading Both VMs will use 10GB of Data [ 6GB for Windows and 4 GB for Kali ] ) 
+                        and will take a little while to download, so please download them before the meeting.</p>
+                    <p>In addition, we will be using Virtual Box, so if you have not installed Virtual Box on your computer, 
+                        you can follow the guide we have written <a href="https://uwmadison.box.com/v/CSEC-Install-Virtual-Box">here</a>
+                    </p>
+                    <p>Once Virtual Box is installed, you can setup the Virtual Machines by following the setup guide <a href="https://uwmadison.box.com/v/CSEC-Virtual-Box-Setup">here</a>
+                    </p>
+                    <p>Kali Linux update to 2021.1:<br>
+                        To update Kali Linux to 2021.1, you can look at the <a href="https://www.kali.org/docs/general-use/updating-kali/">link here</a> from kali.org, but it is only two commands.
+                        <br>
+                        Open your terminal and enter the following:
+                    </p>
+                    <p><em>kali@kali:~$ sudo apt update
+                        kali@kali:~$ sudo apt full-upgrade -y</em></p>
+                    <p>If prompted to enter your password, enter the default password <em>kali</em> or the password you have changed your system to.
+                    </p>
+                    <p>After that, wait for your system to update. Be sure that you don't let your computer sleep or shutdown while installing. If you are prompted to change or restart services,
+                        press enter on the ok button and use the tab key to navigate the menu.</p>
+                    <a href="meetings" class="btn back">Back</a>
+                </div>
+
+            </div>
+            <!--//main content-->
+
+            <!--sidebar-->
+            <div class="sidebar single">
+                <div class="section topics">
+                    <h2 class="section-title">Topics</h2>
+                    <ul>
+                        <li><a href="#">APIs</a></li>
+                        <li><a href="#">Virtual Machines</a></li>
+                        <li><a href="#">Password Cracking</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--//sidebar-->
+        </div>
+        <!-- //Content -->
+    </div>
+<!--//page wrapper-->
+
+<div class="footer">
+    <div class="col-sm-6 text-left text-center-mobile">
+        <p>CybersecurityUW 2021<p>
+    </div>
+</div>
+    
+</body>
+
+</html>
