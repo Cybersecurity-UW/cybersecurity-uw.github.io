@@ -18,15 +18,9 @@ html, body {
 
 .page-wrapper {
   position: relative;
+  min-height: 100vh;
 }
 
-/*add to fix fooder not going to bottom*/
-/* remove once there is enough stuff on page or else it'll break */
-
-.page-wrapper.broken-footer{
-  height: 100%;
-  position: relative;
-}
 
 .title {
   text-align: center;
