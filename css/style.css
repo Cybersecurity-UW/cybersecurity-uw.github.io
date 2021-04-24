@@ -272,6 +272,17 @@ h6 {
 }
 
 
+/* Footer */
+
+.footer {
+    background-color: var(--colorDeepBackground);
+    height: 40px;
+    color: var(--textFooter);
+    padding-top: 10px;
+    position: relative;
+}
+
+
 /*back to top button*/
 
 #BTTBtn {
@@ -293,15 +304,4 @@ h6 {
 #BTTBtn:hover {
     background-color: #555;
     font-size: 24px;
-}
-
-
-/* Footer */
-
-.footer {
-    background-color: var(--colorDeepBackground);
-    height: 40px;
-    color: var(--textFooter);
-    padding-top: 10px;
-    position: relative;
 }
