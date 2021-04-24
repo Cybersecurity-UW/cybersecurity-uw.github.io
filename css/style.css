@@ -1,262 +1,259 @@
 /* this css file covers everything that wasn't imported into bootstrap.css and other css files. 
 */
 
-html, body {
-  --colorBackgroundHighlight: #9288D3;
-  --colorHighlight: #A4A0E0;
-  --colorText: #ffffff;
-  --colorRealBackground: #0f000f;
-  --colorButton: #C5050C;
-  --colorButtonHover: #7e0004;
-  --highlight1dark: #C5050C;
-  --colorDeepBackground: #232323;
-  --textFooter: #555555;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
+html,
+body {
+    --colorBackgroundHighlight: #9288D3;
+    --colorHighlight: #A4A0E0;
+    --colorText: #ffffff;
+    --colorRealBackground: #0f000f;
+    --colorButton: #C5050C;
+    --colorButtonHover: #7e0004;
+    --highlight1dark: #C5050C;
+    --colorDeepBackground: #232323;
+    --textFooter: #555555;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .page-wrapper {
-  position: relative;
-  min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 
-
 .title {
-  text-align: center;
-  padding-bottom: 0px;
-  margin: 100px 0px 100px 0px; 
-  white-space: nowrap;
+    text-align: center;
+    padding-bottom: 0px;
+    margin: 100px 0px 100px 0px;
+    white-space: nowrap;
 }
 
 .title h1 {
-  font-size: 40px;
-  font-weight: bolder;
-  color: var(--highlight1dark)
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--highlight1dark)
 }
 
 .text {
-  color: #eee;
-  font-size: 24px;
-  line-height: 32px;
+    color: #eee;
+    font-size: 24px;
+    line-height: 32px;
 }
 
-
 .text-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
 }
 
 .horiz-line {
-  width:500px; 
-  min-width: 40%; 
-  max-width:100vw; 
-  margin: 40px auto 0px auto;
-  height:1vh; 
-  border:none; 
-  background-color:var(--highlight1dark); 
+    width: 500px;
+    min-width: 40%;
+    max-width: 100vw;
+    margin: 40px auto 0px auto;
+    height: 1vh;
+    border: none;
+    background-color: var(--highlight1dark);
 }
 
-
-
 .btn {
-  display: inline-block;
-  font-size: 25px;
-  /* padding: 15px 20px; */
-  margin: 10px 5px;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-  padding: .5rem 1rem;
-  background: var(--colorButton)
+    display: inline-block;
+    font-size: 25px;
+    /* padding: 15px 20px; */
+    margin: 10px 5px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    padding: .5rem 1rem;
+    background: var(--colorButton)
 }
 
 .btn:hover {
-  background: var(--colorButtonHover)
+    background: var(--colorButtonHover)
 }
 
 .text-input {
-  padding: .7rem 1rem;
-  display: block;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid var(--colorHighlight);
-  outline: none;
-  color: black;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--colorHighlight);
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
+
 .btn.btn-contact {
-  background: var(--colorBackgroundHighlight);
-  border: 3px solid var(--colorHighlight);
-  color: var(--colorText);
+    background: var(--colorBackgroundHighlight);
+    border: 3px solid var(--colorHighlight);
+    color: var(--colorText);
 }
 
 .row.center p {
-  color: #eee;
-  opacity: 0.7;
+    color: #eee;
+    opacity: 0.7;
 }
 
-
 .content {
-  width: 90%;
-  margin: 30px auto 30px;
+    width: 90%;
+    margin: 30px auto 30px;
 }
 
 .clearfix::after {
-  content: '';
-  display: block;
-  clear: both
+    content: '';
+    display: block;
+    clear: both
 }
 
 .content .main-content {
-  width: 70%;
-  float: left;
-  /* border: 1px solid blue; for debugging*/ 
+    width: 70%;
+    float: left;
+    /* border: 1px solid blue; for debugging*/
 }
 
 .content .main-content.single {
-  background: var(--colorRealBackground);
-  padding: 20px 50px;
-  font-size: 1.1em;
-  border-radius: 5px;
+    background: var(--colorRealBackground);
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
 }
 
 .content .main-content.single .post-title {
-  text-align: center;
-  margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .content .main-content.single .post-content p {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .content .main-content.single .post-content .btn.back {
-  bottom: 10px;
-  right: 10px;
-  font-size: 20px;
-  margin-left: -.25vw
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    margin-left: -.25vw
 }
 
 .content .main-content .post {
-  width: 95%;
-  height: 270px;
-  margin: 20px auto;
-  border-radius: 5px;
-  background: var(--colorRealBackground);
-  position: relative;
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: var(--colorRealBackground);
+    position: relative;
 }
 
 .content .main-content .post .readmore {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
 }
 
 .content .main-content .post .post-image {
-  width: 40%;
-  max-width: 292px;
-  height: 100%;
-  float: left;
+    width: 40%;
+    max-width: 292px;
+    height: 100%;
+    float: left;
 }
 
 .content .main-content .post .post-preview {
-  width: 60%;
-  padding: 10px;
-  float: right;
+    width: 60%;
+    padding: 10px;
+    float: right;
 }
 
 .content .main-content .post .post-preview .preview-text {
-  font-size: 12px;
-  padding-top: 10px;
+    font-size: 12px;
+    padding-top: 10px;
 }
 
 .content .main-content .past-meetings-title {
-  margin: 20px;
+    margin: 20px;
 }
+
 .content .date-title {
-  margin-top: -1em;
-  margin-bottom: 1em;
-  text-align: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .content .sidebar {
-  width: 30%;
-  float: left;
-  height: 300px;
+    width: 30%;
+    float: left;
+    height: 300px;
 }
 
 .content .sidebar.single {
-  padding: 0px 10px;
+    padding: 0px 10px;
 }
 
 .content .sidebar .section {
-  background-color: var(--colorRealBackground);
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+    background-color: var(--colorRealBackground);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .content .sidebar .section .section-title {
-  margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .content .sidebar .section.search {
-  margin-top: 80px
+    margin-top: 80px
 }
 
 .content .sidebar .section.topics {
-  margin-top: 150px;
+    margin-top: 150px;
 }
-.content .sidebar .section.topics ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none; 
-  border-top: 1px solid var(--colorBackgroundHighlight);
 
+.content .sidebar .section.topics ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid var(--colorBackgroundHighlight);
 }
 
 .content .sidebar .section.topics ul li a {
-  border-bottom: 1px solid var(--colorBackgroundHighlight);
-  display: block;
-  padding: 15px 0px 15px 0px;
-  transition: all 0.3s;
+    border-bottom: 1px solid var(--colorBackgroundHighlight);
+    display: block;
+    padding: 15px 0px 15px 0px;
+    transition: all 0.3s;
 }
 
 .content .sidebar .section.topics ul li a:hover {
-  padding-left: 10px;
-  transition: all 0.3s;
+    padding-left: 10px;
+    transition: all 0.3s;
 }
 
-
-
 h1 {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 h2 {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 h3 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 h4 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 h5 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 h6 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
+
 /* For circular images*/
+
 .center {
     text-align: center;
 }
@@ -274,15 +271,37 @@ h6 {
     margin-bottom: 0.5em;
 }
 
-/* Footer */
 
-.footer {
-  background-color: var(--colorDeepBackground);
-  height: 40px; 
-  color: var(--textFooter);
-  padding-top: 10px;
-  position: relative;
-  
+/*back to top button*/
+
+#BTTBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(120, 48, 113);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#BTTBtn:hover {
+    background-color: #555;
+    font-size: 24px;
 }
 
 
+/* Footer */
+
+.footer {
+    background-color: var(--colorDeepBackground);
+    height: 40px;
+    color: var(--textFooter);
+    padding-top: 10px;
+    position: relative;
+}
