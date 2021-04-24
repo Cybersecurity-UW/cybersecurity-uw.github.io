@@ -274,7 +274,7 @@ h6 {
 
 /*back to top button*/
 
-#BTTBtn {
+.BTTBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -290,7 +290,7 @@ h6 {
     font-size: 18px;
 }
 
-#BTTBtn:hover {
+.BTTBtn:hover {
     background-color: #555;
     font-size: 24px;
 }
