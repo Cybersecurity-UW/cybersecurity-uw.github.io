@@ -17,7 +17,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-        
+
     <!--basic styling-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
@@ -43,6 +43,8 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="BTTBtn" title="Go to top">Top</button>
+    <script src="js/backtotop.js"></script>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <!--padding changes height of text in box   style="height:60px; padding:0%; top:-1vh; background-color: rgb(119, 115, 127);"-->
         <div class="container-fluid">
@@ -78,39 +80,32 @@
 
                 <div class="post-content">
                     <p>
-                        We will be using the virtual machines again from last meeting. 
-                        If you have not already downloaded them, the instructions are attached below.
-                         We recommend that you download the VMs <em>before</em> the meeting since it may take a
-                          while to download. The following VMs are what we will be using to run our next exploit:
+                        We will be using the virtual machines again from last meeting. If you have not already downloaded them, the instructions are attached below. We recommend that you download the VMs <em>before</em> the meeting since it may take a
+                        while to download. The following VMs are what we will be using to run our next exploit:
                     </p>
                     <ul>Kali Linux 2020.4</ul>
                     <ul>Windows 7 Professional SP1 with RDP enabled</ul>
 
-                    <p>Note: There was a new Kali Linux release since last meeting. If you want to update, 
-                        check the instructions towards the bottom of the email.</p>
+                    <p>Note: There was a new Kali Linux release since last meeting. If you want to update, check the instructions towards the bottom of the email.</p>
                     <br>
                     <p>
                         These VMs can be downloaded <a href="https://uwmadison.box.com/v/CSEC-Virtual-Box-VMs">here</a>
                     </p>
                     <br>
-                    <p>These Virtual machines are large (Downloading Both VMs will use 10GB of Data [ 6GB for Windows and 4 GB for Kali ] ) 
-                        and will take a little while to download, so please download them before the meeting.</p>
-                    <p>In addition, we will be using Virtual Box, so if you have not installed Virtual Box on your computer, 
-                        you can follow the guide we have written <a href="https://uwmadison.box.com/v/CSEC-Install-Virtual-Box">here</a>
+                    <p>These Virtual machines are large (Downloading Both VMs will use 10GB of Data [ 6GB for Windows and 4 GB for Kali ] ) and will take a little while to download, so please download them before the meeting.</p>
+                    <p>In addition, we will be using Virtual Box, so if you have not installed Virtual Box on your computer, you can follow the guide we have written <a href="https://uwmadison.box.com/v/CSEC-Install-Virtual-Box">here</a>
                     </p>
                     <p>Once Virtual Box is installed, you can setup the Virtual Machines by following the setup guide <a href="https://uwmadison.box.com/v/CSEC-Virtual-Box-Setup">here</a>
                     </p>
-                    <p>Kali Linux update to 2021.1:<br>
-                        To update Kali Linux to 2021.1, you can look at the <a href="https://www.kali.org/docs/general-use/updating-kali/">link here</a> from kali.org, but it is only two commands.
-                        <br>
-                        Open your terminal and enter the following:
+                    <p>Kali Linux update to 2021.1:<br> To update Kali Linux to 2021.1, you can look at the <a href="https://www.kali.org/docs/general-use/updating-kali/">link here</a> from kali.org, but it is only two commands.
+                        <br> Open your terminal and enter the following:
                     </p>
                     <p><em>kali@kali:~$ sudo apt update
                         kali@kali:~$ sudo apt full-upgrade -y</em></p>
                     <p>If prompted to enter your password, enter the default password <em>kali</em> or the password you have changed your system to.
                     </p>
-                    <p>After that, wait for your system to update. Be sure that you don't let your computer sleep or shutdown while installing. If you are prompted to change or restart services,
-                        press enter on the ok button and use the tab key to navigate the menu.</p>
+                    <p>After that, wait for your system to update. Be sure that you don't let your computer sleep or shutdown while installing. If you are prompted to change or restart services, press enter on the ok button and use the tab key to navigate
+                        the menu.</p>
                     <a href="meetings" class="btn back">Back</a>
                 </div>
 
@@ -132,14 +127,15 @@
         </div>
         <!-- //Content -->
     </div>
-<!--//page wrapper-->
+    <!--//page wrapper-->
 
-<div class="footer">
-    <div class="col-sm-6 text-left text-center-mobile">
-        <p>CybersecurityUW 2021<p>
+    <div class="footer">
+        <div class="col-sm-6 text-left text-center-mobile">
+            <p>CybersecurityUW 2021
+                <p>
+        </div>
     </div>
-</div>
-    
+
 </body>
 
 </html>
