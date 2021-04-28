@@ -24,7 +24,7 @@
     padding: 15px 20px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: var(--highlight1dark);
+    color: #0f000f;
     background-color: var(--darkBackground);
     background-image: none;
     border: 1px solid var(--colorDeepBackground);
