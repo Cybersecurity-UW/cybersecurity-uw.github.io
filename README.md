@@ -1,11 +1,12 @@
-Cybersecurity UW website.
+# Cybersecurity UW website.
 
 (In development 2021-present)
 
 Currently destined for https://cybersecurity-uw.github.io, potentially another domain.
 
-Content is copied from the previous iteration of the site.
+Content is copied from the previous iteration of the site. Site is forked from the Doks theme example.
 
+## Dependencies
 This project is built on:
 - **Hugo** ([https://gohugo.io](https://gohugo.io)), a static site generator written in Go. It takes markdown articles and json-like configuration files as input, and outputs static html.
 The main advantage of Hugo is its speed.
@@ -14,7 +15,39 @@ The main advantage of Hugo is its speed.
 - **Node**, as a dependency for Doks. The build pipeline and package management are used directly when working on the site, and the output indirectly uses Node for progressive rendering. See the Doks readme for more details.
 - Free static hosting via **Netlify, Cloudflare, or Github Pages**, if server space is not availiable.
 
-Following installation, run `npm install` to download needed modules, then the site can be locally built for development with `npm run start`.
+## Setup
+1. **Install Node.** I find [nvm](https://github.com/nvm-sh/nvm) helpful but have only used it for a week. Here are the [DigitalOcean instructions](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04) if you find them helpful.
+2. **Clone this repo.** (specifically this branch for now, later maybe not)
+```bash
+$ git clone -b hugo-rewrite https://github.com/Cybersecurity-UW/website
+```
+3. Following installation, **run `npm install`** to download needed modules. This should also install Hugo, if it does not you can follow [these directions](https://gohugo.io/getting-started/installing/).
+
+:tada: You're done! `npm run start` will start the local development environment, usually at http://localhost:1313.
+
+## Committing changes
+Before you push commits, please do the following:
+
+First, check that the site looks as you want it to in your browser.
+
+```bash
+$ npm run start  # local development server, see output
+```
+
+Second, double-check that the site builds without error.
+
+```bash
+$ npm run clean  # delete reminants of previous build
+$ npm run build  # build the site from the current code
+```
+
+Finally, to keep styling consistent, verify that your edits match the style guide inherited from the theme project.
+```bash
+$ npm run lint  # check for style issues, please fix and re-check until none are identified
+```
+
+
+
 
 ---
 
