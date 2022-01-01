@@ -3,7 +3,7 @@ canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 7
@@ -58,11 +58,11 @@ rel  = "sitemap"
   priority = 0.5
 
 [taxonomies]
-  contributor = "contributors"
+  author = "people"
 
 [permalinks]
-  blog = "/blog/:title/"
-# docs = "/docs/1.0/:sections[1:]/:title/"
+  blog = "/blog/:year/:month/:title/"
+  wiki = "/wiki/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false

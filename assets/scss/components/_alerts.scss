@@ -7,7 +7,7 @@
   margin-right: 0.75rem;
 }
 
-.docs main .alert {
+.wiki main .alert {
   margin: 2rem -1.5rem;
 }
 
@@ -15,14 +15,20 @@
   text-decoration: underline;
 }
 
+/*
 .alert-dark {
-  color: $white;
-  background-color: $black;
+  color: $alert-color-dark-text;
+  background-color: $alert-color-dark-bg;
 }
 
 .alert-dark .alert-link {
-  color: $white;
+  color: $alert-color-dark-text;
+
+  &:hover {
+    color: $alert-color-dark-link-hover;
+  }
 }
+*/
 
 .alert-light {
   color: $black;

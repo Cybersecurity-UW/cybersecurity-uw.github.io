@@ -1,6 +1,6 @@
 ---
 title : "Cybersecurity UW"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description: "Cybersecurity UW, a Registered Student Organization at UW-Madison"
 lead: "a Registered Student Organization at UW-Madison"
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00

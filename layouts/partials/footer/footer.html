@@ -1,4 +1,4 @@
-<footer class="footer text-muted">
+<footer class="footer">
   <div class="container-xxl">
     <div class="row">
       <div class="col-lg-8 order-last order-lg-first">
@@ -14,5 +14,14 @@
         </ul>
       </div>
     </div>
+    {{ with .Site.Params.footerbottom }}
+    <div class="row">
+      <div class="col-lg-8">
+        <ul class="list-inline">
+          <li class="list-inline-item">{{ .| safeHTML }}</li>
+        </ul>
+      </div>
+    </div>
   </div>
+  {{ end }}
 </footer>

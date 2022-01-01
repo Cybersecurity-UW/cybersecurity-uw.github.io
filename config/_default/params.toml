@@ -4,16 +4,16 @@
 title = "Cybersecurity UW"
 titleSeparator = "-"
 titleAddition = "UW-Madison Student Cybersecurity Club"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description = "Cybersecurity UW is a student organization that allows its members to learn and explore security in a collaborative environment."
 
 ## Documentation
-# docsVersion = "0.3"
+# wikiVersion = "0.1"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["doks.png"] # TODO
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "doks.netlify.app" # TODO
+titleHome = "Cybersecurity UW"
 
 ## Twitter Cards
 twitterSite = "@getdoks"
@@ -22,22 +22,20 @@ twitterCreator = "@henkverlinde"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "Cybersecurity UW"
+schemaAuthor = "Michael Noguera"
+schemaAuthorGitHub = "https://github.com/michaelnoguera"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
-schemaSection = "blog"
+#schemaLogo = "logo-doks.png" # TODO
+#schemaLogoWidth = 512
+#schemaLogoHeight = 512
+#schemaImage = "doks.png" # TODO
+#schemaImageWidth = 1280
+#schemaImageHeight = 640
+#schemaTwitter = "https://twitter.com/getdoks"
+#schemaLinkedIn = ""
+schemaGitHub = "https://github.com/Cybersecurity-UW"
+#schemaSection = "blog"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
@@ -57,20 +55,20 @@ smallLimit = "300"
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2020-2021 Michael Noguera and site contributors"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = false
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "<strong>Note:</strong> We are a student-run club at UW-Madison, unaffiliated with the official <a class=\"alert-link stretched-link\" href=\"https://cybersecurity.wisc.edu/\" target=\"_blank\" rel=\"noopener\">Office of Cybersecurity</a>."
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
-editPage = false
+wikiRepo = "https://github.com/Cybersecurity-UW/website"
+wikiRepoBranch = "hugo-rewrite"
+editPage = true
 
 [options]
   lazySizes = true
@@ -79,9 +77,9 @@ editPage = false
   flexSearch = true
   darkMode = false
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = false
   collapsibleSidebar = true
   multilingualMode = false
-  docsVersioning = false
+  wikiVersioning = false

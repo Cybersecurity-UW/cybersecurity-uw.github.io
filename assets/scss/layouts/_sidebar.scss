@@ -1,41 +1,41 @@
-.docs-links,
-.docs-toc {
+.wiki-links,
+.wiki-toc {
   scrollbar-width: thin;
   scrollbar-color: $body-bg $body-bg;
 }
 
-.docs-links::-webkit-scrollbar,
-.docs-toc::-webkit-scrollbar {
+.wiki-links::-webkit-scrollbar,
+.wiki-toc::-webkit-scrollbar {
   width: 5px;
 }
 
-.docs-links::-webkit-scrollbar-track,
-.docs-toc::-webkit-scrollbar-track {
+.wiki-links::-webkit-scrollbar-track,
+.wiki-toc::-webkit-scrollbar-track {
   background: $body-bg;
 }
 
-.docs-links::-webkit-scrollbar-thumb,
-.docs-toc::-webkit-scrollbar-thumb {
+.wiki-links::-webkit-scrollbar-thumb,
+.wiki-toc::-webkit-scrollbar-thumb {
   background: $body-bg;
 }
 
-.docs-links:hover,
-.docs-toc:hover {
+.wiki-links:hover,
+.wiki-toc:hover {
   scrollbar-width: thin;
   scrollbar-color: $gray-200 $body-bg;
 }
 
-.docs-links:hover::-webkit-scrollbar-thumb,
-.docs-toc:hover::-webkit-scrollbar-thumb {
+.wiki-links:hover::-webkit-scrollbar-thumb,
+.wiki-toc:hover::-webkit-scrollbar-thumb {
   background: $gray-200;
 }
 
-.docs-links::-webkit-scrollbar-thumb:hover,
-.docs-toc::-webkit-scrollbar-thumb:hover {
+.wiki-links::-webkit-scrollbar-thumb:hover,
+.wiki-toc::-webkit-scrollbar-thumb:hover {
   background: $gray-200;
 }
 
-.docs-links h3,
+.wiki-links h3,
 .page-links h3 {
   text-transform: uppercase;
   font-size: $font-size-base;
@@ -44,18 +44,18 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .docs-links h3,
+  .wiki-links h3,
   .page-links h3 {
     margin: 1.125rem 1.5rem 0.75rem 0;
     padding: 1.375rem 0 0 0;
   }
 }
 
-.docs-links h3:not(:first-child) {
+.wiki-links h3:not(:first-child) {
   border-top: 1px solid $gray-200;
 }
 
-a.docs-link {
+a.wiki-link {
   color: $body-color;
   display: block;
   padding: 0.125rem 0;
@@ -85,26 +85,26 @@ a.docs-link {
   font-size: $font-size-base * 0.9375;
 }
 
-.docs-link:hover,
-.docs-link.active,
+.wiki-link:hover,
+.wiki-link.active,
 .page-links a:hover {
   text-decoration: none;
   color: $link-color;
 }
 
-.docs-links h3.sidebar-link,
+.wiki-links h3.sidebar-link,
 .page-links h3.sidebar-link {
   text-transform: none;
   font-size: $font-size-md;
   font-weight: normal;
 }
 
-.docs-links h3.sidebar-link a,
+.wiki-links h3.sidebar-link a,
 .page-links h3.sidebar-link a {
   color: $body-color;
 }
 
-.docs-links h3.sidebar-link a:hover,
+.wiki-links h3.sidebar-link a:hover,
 .page-links h3.sidebar-link a:hover {
   text-decoration: underline;
 }

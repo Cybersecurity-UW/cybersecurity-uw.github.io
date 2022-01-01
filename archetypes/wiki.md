@@ -7,7 +7,7 @@ lastmod: {{ .Date }}
 draft: true
 images: []
 menu: 
-  docs:
+  wiki:
     parent: ""
 weight: 999
 toc: true

@@ -1,5 +1,5 @@
-var docs = [
-{{ range $index, $page := (where .Site.Pages "Section" "docs") -}}
+var wiki = [
+{{ range $index, $page := (where .Site.Pages "Section" "wiki") -}}
   {
     id: {{ $index }},
     title: "{{ .Title }}",

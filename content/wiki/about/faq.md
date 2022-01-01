@@ -1,19 +1,23 @@
 ---
+# this is an example page from the theme I have kept because it demonstrates use of alert shortcode
 title: "FAQ"
 description: "Answers to frequently asked questions."
 lead: "Answers to frequently asked questions."
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
-draft: false
+draft: true
 images: []
 menu:
-  docs:
-    parent: "help"
+  wiki:
+    parent: "about"
 weight: 630
 toc: true
 ---
 
 ## Hyas?
+
+
+{{< alert icon="💡" text="You can change the commands in the scripts section of `./package.json`." />}}
 
 Doks is a [Hyas theme](https://gethyas.com/themes/) build by the creator of Hyas.
 

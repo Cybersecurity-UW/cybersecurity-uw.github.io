@@ -9,7 +9,7 @@
   {{ $editPath = "/-/blob/" }}
 {{ end }}
 
-{{ $contentPath := print .Site.Params.docsRepo $editPath .Site.Params.docsRepoBranch "/content/" }}
+{{ $contentPath := print .Site.Params.wikiRepo $editPath .Site.Params.wikiRepoBranch "/content/" }}
 
 {{ $url := print $contentPath $filePath }}
 

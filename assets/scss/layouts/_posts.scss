@@ -1,5 +1,5 @@
 .home .card,
-.contributors.list .card,
+.people.list .card,
 .blog.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -7,13 +7,13 @@
 }
 
 .home .card:hover,
-.contributors.list .card:hover,
+.people.list .card:hover,
 .blog.list .card:hover {
   transform: scale(1.025);
 }
 
 .home .card-body,
-.contributors.list .card-body,
+.people.list .card-body,
 .blog.list .card-body {
   padding: 0 2rem 1rem;
 }
