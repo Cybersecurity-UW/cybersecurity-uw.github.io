@@ -80,7 +80,7 @@
 			<br /><hr />
 			<h2>Recent Posts</h2>
 			<div class="card-list">
-				{{ range first 3 (where .Site.RegularPages.ByDate "Section" "blog" ) -}}
+				{{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
 					<div class="card">
 						<div class="card-body">
 							<h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>

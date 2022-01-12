@@ -1,39 +1,21 @@
-#[[wiki]]
-#  name = "About"
-#  weight = 10
-#  identifier = "about"
-#  url = "/wiki/about/"
-
-#[[wiki]]
-#  name = "Help"
-#  weight = 60
-#  identifier = "help"
-#  url = "/wiki/help/"
-
-#[[main]]
-#  name = "Wiki"
-#  url = "/wiki/prologue/introduction/"
-# url = "/wiki/1.0/prologue/introduction/"
-#  weight = 10
-
 [[main]]
   name = "About"
   url = "/wiki/about/club-information"
   weight = 10
 
 [[main]]
-  name = "Schedule"
-  url = "/schedule/"
-  weight = 20
-
-[[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Wiki"
   url = "/wiki/"
+  weight = 30
+
+[[main]]
+  name = "Schedule"
+  url = "/schedule/"
   weight = 40
 
 [[main]]

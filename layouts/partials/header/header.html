@@ -25,7 +25,7 @@
         <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
       </div>
       <div class="offcanvas-body px-4">
-        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Menu</h3>
         <ul class="nav flex-column flex-md-row ms-md-n3">
           {{- $current := . -}}
           {{ range .Site.Menus.main -}}
@@ -44,7 +44,7 @@
         <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
-              <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
+              <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}" target="_blank" rel="noopener noreferrer">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
             </li>
           {{ end -}}
         </ul>

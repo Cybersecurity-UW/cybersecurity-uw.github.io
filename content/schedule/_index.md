@@ -13,7 +13,7 @@ layout: "single"
 	   headerToolbar: {
 	     left: 'prev,next today',
 	     center: 'title',
-	     right: 'dayGridMonth,timeGridWeek,timeGridDay'
+	     right: 'dayGridMonth,listMonth'
 	   },
 	   events: [
 	     {
@@ -31,6 +31,4 @@ layout: "single"
 
 	 calendar.render();
 	});
-
-
 </script>

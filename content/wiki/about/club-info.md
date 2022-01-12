@@ -13,6 +13,10 @@ weight: 610
 toc: true
 ---
 
+Cybersecurity UW was founded in the Information School at 2019.
+<br />
+Since then, we have focused on various cybersecurity topics.
+
 ## Membership Requirements
 
 **Anyone can join our club.**
@@ -28,4 +32,4 @@ Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-
 
 ## Contact
 
-:email: email: csec@ischool.wisc.edu
+:email: E-mail: csec@ischool.wisc.edu
