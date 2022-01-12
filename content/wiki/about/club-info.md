@@ -16,7 +16,7 @@ toc: true
 ## Membership Requirements
 
 **Anyone can join our club.**
-Cybersecurity UW wants to try and include everyone who is interested. This is why the club is open to everyone including undergraduate and graduate students, minors and students who are not at UW.
+Cybersecurity UW wants to try and include everyone who is interested. This is why the club is open to everyone including undergraduate and graduate students, minors and students who are not at UW-Madison.
 
 It’s also not required to make every meeting.
 
@@ -24,7 +24,7 @@ If you want to join the club, send us an email and we will add you to our mailin
 
 ## Advisor Information
 
-Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-dorothea/) from the [iSchool](https://ischool.wisc.edu).
+Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-dorothea/) from the [Information School](https://ischool.wisc.edu).
 
 ## Contact
 
