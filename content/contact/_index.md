@@ -24,13 +24,13 @@ images: []
   <br />
   <div class="form-group" style="text-align: left">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@wisc.edu">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NetID@wisc.edu">
   </div>
   <br />
   <div class="form-group" style="text-align: left">
     <label for="exampleFormControlSelect1">Your Affiliation</label>
     <select class="form-control" id="exampleFormControlSelect1">
-      <option>Select...</option>
+      <option selected disabled>Select...</option>
       <option>UW-Madison Student</option>
       <option>Non UW-Madison Student</option>
       <option>Sponsor</option>
