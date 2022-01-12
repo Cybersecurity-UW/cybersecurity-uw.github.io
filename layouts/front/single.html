@@ -1,84 +1,83 @@
 {{ define "main" }}
 <div class="row justify-content-center">
-   <div class="col-md-auto col-lg-auto col-xl-auto">
-      <div class="blog-header">
-         <p>
-            <h1>{{ .Title }}</h1>
-            <img src="logo-csec.svg" style="width: 20%; height: auto;" />
-            <br /><br />
-            We code, we hack, we protect.
-            <br />
-            The official student cybersecurity club of UW-Madison.
-            <br /><br />
-         </p>
-      </div>
-      <div id="main">
-         <div class="inner">
-            <section class="tiles">
-               <article class="style1">
-                  <span class="image">
-                  <img src="images/pic.jpg" alt="">
-                  </span>
-                  <a href="#">
-                     <h2>We learn</h2>
-                     <div class="content">
-                        <ul style="text-align: left;">
-                           <li>Skills relevant to cybersecurity.</li>
-                           <li>How to manage digital footprint.</li>
-                           <li>How to enforce privacy.</li>
-                        </ul>
-                     </div>
-                  </a>
-               </article>
-               <article class="style2">
-                  <span class="image">
-                  <img src="images/pic.jpg" alt="">
-                  </span>
-                  <a href="#">
-                     <h2>We collaborate</h2>
-                     <div class="content">
-                        <ul style="text-align: left;">
-                           <li>By participating in wargames.</li>
-                           <li>By researching security topics.</li>
-                           <li>By conducting team projects.</li>
-                        </ul>
-                     </div>
-                  </a>
-               </article>
-               <article class="style3">
-                  <span class="image">
-                  <img src="images/pic.jpg" alt="">
-                  </span>
-                  <a href="#">
-                     <h2>We create</h2>
-                     <div class="content">
-                        <ul style="text-align: left;">
-                           <li>An environment for people to explore cybersecurity.</li>
-                           <li>New cybersecurity research models.</li>
-                        </ul>
-                     </div>
-                  </a>
-               </article>
-               <article class="style5">
-                  <span class="image">
-                  <img src="images/pic.jpg" alt="">
-                  </span>
-                  <a href="#">
-                     <h2>We share</h2>
-                     <div class="content">
-                        <ul style="text-align: left;">
-                           <li>By hosting events to share information with the general public.</li>
-                        </ul>
-                     </div>
-                  </a>
-               </article>
-            </section>
-            <br /><hr />
-            <div>
-               {{ .Content }}
-            </div>
-         </div>
-      </div>
-   </div>
+	<div class="col-md-auto col-lg-auto col-xl-auto">
+		<div class="blog-header">
+			<p>
+			<h1>{{ .Title }}</h1>
+			<img src="logo-csec.svg" style="width: 20%; height: auto;" />
+			<br /><br />
+			We code, we hack, we protect.
+			<br />
+			The official student cybersecurity club of UW-Madison.
+			<br /><br />
+			</p>
+		</div>
+		<div id="main">
+			<section class="tiles">
+				<article class="style1">
+					<span class="image">
+					<img src="images/pic.jpg" alt="">
+					</span>
+					<a href="#">
+						<h2>We learn</h2>
+						<div class="content">
+							<ul style="text-align: left;">
+								<li>Skills relevant to cybersecurity.</li>
+								<li>How to manage digital footprint.</li>
+								<li>How to enforce privacy.</li>
+							</ul>
+						</div>
+					</a>
+				</article>
+				<article class="style2">
+					<span class="image">
+					<img src="images/pic.jpg" alt="">
+					</span>
+					<a href="#">
+						<h2>We collaborate</h2>
+						<div class="content">
+							<ul style="text-align: left;">
+								<li>By participating in wargames.</li>
+								<li>By researching security topics.</li>
+								<li>By conducting team projects.</li>
+							</ul>
+						</div>
+					</a>
+				</article>
+				<article class="style3">
+					<span class="image">
+					<img src="images/pic.jpg" alt="">
+					</span>
+					<a href="#">
+						<h2>We create</h2>
+						<div class="content">
+							<ul style="text-align: left;">
+								<li>An environment for people to explore cybersecurity.</li>
+								<li>New cybersecurity research models.</li>
+							</ul>
+						</div>
+					</a>
+				</article>
+				<article class="style5">
+					<span class="image">
+					<img src="images/pic.jpg" alt="">
+					</span>
+					<a href="#">
+						<h2>We share</h2>
+						<div class="content">
+							<ul style="text-align: left;">
+								<li>By hosting events to share information with the general public.</li>
+							</ul>
+						</div>
+					</a>
+				</article>
+			</section>
+			<br />
+			<hr />
+			<div>
+				{{ .Content }}
+			</div>
+		</div>
+	</div>
 </div>
 {{ end }}

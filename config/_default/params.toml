@@ -55,7 +55,7 @@ smallLimit = "300"
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Michael Noguera and site contributors"
+copyRight = "Copyright (c) 2020-2022 Michael Noguera, Paul Chung, and site contributors"
 
 # Alert
 alert = true
@@ -75,7 +75,7 @@ editPage = true
   clipBoard = true
   instantPage = true
   flexSearch = true
-  darkMode = false
+  darkMode = true
   bootStrapJs = true
   breadCrumb = true
   highLight = true
