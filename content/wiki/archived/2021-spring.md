@@ -6,7 +6,7 @@ draft: false
 images: []
 menu:
   wiki:
-    parent: "meetings"
+    parent: "archived"
 weight: 640
 toc: true
 ---
