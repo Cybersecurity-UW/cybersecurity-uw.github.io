@@ -137,3 +137,24 @@
   </aside>
 </div>
 {{ end -}}
+
+<!--blog search implementation TBD-->
+{{ if eq .Section "blog" -}}
+<nav class="doks-subnavbar py-2 sticky-lg-top{{ if eq .Site.Params.options.flexSearch false }} d-lg-none{{ end }}" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+
+    {{ if .Site.Params.options.flexSearch -}}
+    <form class="doks-search position-relative flex-grow-1 me-auto">
+      <input id="search" class="form-control is-search" type="search" placeholder="Search blog..." aria-label="Search blog..." autocomplete="off">
+      <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+    </form>
+    {{ end -}}
+
+    <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed{{ if eq .Site.Params.options.flexSearch false }} ms-auto{{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#doks-wiki-nav" aria-controls="doks-wiki-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+
+  </div>
+</nav>
+{{ end -}}

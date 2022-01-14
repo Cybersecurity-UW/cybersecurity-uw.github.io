@@ -28,7 +28,7 @@ images: []
   <br />
   <div class="form-group" style="text-align: left">
     <label for="affiliation">Your Affiliation</label>
-    <select class="form-control" id="affiliation" name="Affiliation" required>
+    <select class="form-select" id="affiliation" name="Affiliation" required>
       <option value="" selected disabled>Select...</option>
       <option>UW-Madison Student</option>
       <option>Non UW-Madison Student</option>
