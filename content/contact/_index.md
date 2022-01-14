@@ -5,39 +5,30 @@ images: []
 ---
 
 {{< email user="csec" domain="ischool.wisc.edu" >}}
-
 <br />
+<div id="submitmsg">
+</div>
 <hr />
-<script>
-$("#choice").change(function () {
-    if($(this).val() == "0") $(this).addClass("empty");
-    else $(this).removeClass("empty")
-});
-$("#choice").change();
-</script>
-<style>
-#choice option { color: black; }
-.empty { color: gray; }
-</style>
-<form>
+
+<form id="contactForm" action="https://getform.io/f/74a89696-1ba3-4823-ba04-8b382506b70f" method="POST">
   <div class="form-group" style="text-align: left">
-    <label for="exampleFormControlInput1">First Name</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Badger" required>
+    <label for="fname">First Name</label>
+    <input type="text" class="form-control" id="fname" name="First Name" placeholder="Ex. Badger" required>
   </div>
   <br />
   <div class="form-group" style="text-align: left">
-    <label for="exampleFormControlInput1">Last Name</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Buckingham" required>
+    <label for="lname">Last Name</label>
+    <input type="text" class="form-control" id="lname" name="Last Name" placeholder="Ex. Buckingham" required>
   </div>
   <br />
   <div class="form-group" style="text-align: left">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NetID@wisc.edu" required>
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="Email" placeholder="Ex. NetID@wisc.edu" required>
   </div>
   <br />
   <div class="form-group" style="text-align: left">
-    <label for="exampleFormControlSelect1">Your Affiliation</label>
-    <select class="form-control" name="affiliation" id="choice" required>
+    <label for="affiliation">Your Affiliation</label>
+    <select class="form-control" id="affiliation" name="Affiliation" required>
       <option value="" selected disabled>Select...</option>
       <option>UW-Madison Student</option>
       <option>Non UW-Madison Student</option>
@@ -47,9 +38,9 @@ $("#choice").change();
   </div>
   <br />
   <div class="form-group" style="text-align: left">
-    <label for="exampleFormControlTextarea1">Your Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+    <label for="message">Your Message</label>
+    <textarea class="form-control" id="message" name="Message" rows="6" placeholder="Ex. Hi! I'd like to join your club." required></textarea>
   </div>
   <br />
-  <button class="btn btn-primary" action="submit">Submit</button>
+  <button class="btn btn-primary" type="submit">Submit</button>
 </form>

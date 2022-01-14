@@ -482,12 +482,13 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $gray-600 !important;
 }
 
-[data-dark-mode] body .email-form .form-control {
+[data-dark-mode] body .form-control {
   background: $body-overlay-dark;
   border: 1px solid transparent;
+  border-color: $gray-600;
 }
 
-[data-dark-mode] body .email-form .form-control:focus {
+[data-dark-mode] body .form-control:focus {
   border: 1px solid $link-color-dark;
 }
 
@@ -522,4 +523,9 @@ $navbar-dark-active-color:          $link-color-dark;
     background-color: $body-overlay-dark;
     border-color: $border-dark;
   }
+}
+
+// TBD Calendar
+[data-dark-mode] tbody th {
+  background-color: $body-bg-dark;
 }
