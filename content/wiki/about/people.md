@@ -15,7 +15,7 @@ toc: true
 <link rel="stylesheet" href="/css/people.css">
 
 Our Leadership members.
-### Leadership
+### Head Officers
 
 <div>
 	<div class="row" style="--bs-gutter-x: 15px;">
@@ -55,6 +55,12 @@ Our Leadership members.
 				<span class="post">Head Officer</span>
 			</div>
 		</div>
+	</div>
+</div>
+
+### Officers
+<div>
+	<div class="row" style="--bs-gutter-x: 15px;">
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
@@ -111,6 +117,7 @@ Our Leadership members.
 		</div>
 	</div>
 </div>
+
 
 ### Advisors
 
