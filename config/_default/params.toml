@@ -80,6 +80,6 @@ editPage = true
   breadCrumb = true
   highLight = true
   kaTex = false
-  collapsibleSidebar = true
+  collapsibleSidebar = false
   multilingualMode = false
   wikiVersioning = false

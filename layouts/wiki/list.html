@@ -11,7 +11,11 @@
 				<div class="card my-3">
 					<div class="card-body">
 						<a class="stretched-link d-block bold" href="{{ .RelPermalink }}">{{ .Params.title | title }}</a>
-						{{- with .Params.lead -}}<small class="text-muted lh-sm">{{- . | safeHTML -}}</small>{{- end -}}
+						{{ if .Params.lead }}
+							<small class="text-muted lh-sm">{{- .Params.lead | safeHTML -}}</small>
+						{{ else if .Params.description }}
+							<small class="text-muted lh-sm">{{- .Params.description | safeHTML -}}</small>
+						{{ end }}
 					</div>
 				</div>
 				{{ end }}
