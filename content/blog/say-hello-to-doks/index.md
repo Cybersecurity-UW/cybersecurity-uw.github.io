@@ -1,11 +1,16 @@
 ---
-title: "Say hello to Doks 👋"
-description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date: 2020-11-04T09:19:42+01:00
-lastmod: 2020-11-04T09:19:42+01:00
+title: "Hello World 👋"
+description: "Introducing the new homepage of Cybersecurity UW, newly built on Hugo, Doks, and with secret ingredients."
+date: 2022-01-17T00:10:00+00:00
+lastmod: 2022-01-17T00:10:00+00:00
 draft: false
-weight: 50
-images: ["say-hello-to-doks.png"]
-authors: ["Henk Verlinde"]
+authors: ["Paul Chung"]
 ---
+
+
+Introducing the new homepage of Cybersecurity UW, newly built with Hugo, Doks, and with some secret ingredients.
+```python
+print("Hello World!")
+```
+Definitely better than what it used to look like, isn't it?
+![Before](screenshot.png)

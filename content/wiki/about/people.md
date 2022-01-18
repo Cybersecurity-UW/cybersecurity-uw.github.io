@@ -15,7 +15,6 @@ showEditLink: false
 ---
 <link rel="stylesheet" href="/css/people.css">
 
-Our Leadership members.
 ### Head Officers
 
 <div>
@@ -77,7 +76,7 @@ Our Leadership members.
 					<img src="/images/person.jpg">
 				</div>
 				<h3 class="title">Eileen Egan</h3>
-				<span class="post">Involvement Officer of Introductory Content</span>
+				<span class="post">Officer of Introductory Content</span>
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6">
@@ -86,7 +85,7 @@ Our Leadership members.
 					<img src="/images/person.jpg">
 				</div>
 				<h3 class="title">Divyank Jain</h3>
-				<span class="post">TBD</span>
+				<span class="post">Officer of Outreach</span>
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6">
@@ -104,7 +103,7 @@ Our Leadership members.
 					<img src="/images/person.jpg">
 				</div>
 				<h3 class="title">Jacob Sandum</h3>
-				<span class="post">Involvement Officer of Technical Content</span>
+				<span class="post">Officer of Technical Content</span>
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6">
