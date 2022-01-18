@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other on </title>
+    <link>https://cybersecurity-uw.github.io/website/about/other/</link>
+    <description>Recent content in Other on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cybersecurity-uw.github.io/website/about/other/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bylaws</title>
+      <link>https://cybersecurity-uw.github.io/website/about/other/bylaws/</link>
+      <pubDate>Sat, 01 Jan 2022 00:03:00 +0000</pubDate>
+      
+      <guid>https://cybersecurity-uw.github.io/website/about/other/bylaws/</guid>
+      <description>Article I: Purpose and Goals # Purpose # Cybersecurity UW (CSEC) exists to allow its members to learn and explore the field of cybersecurity in a collaborative environment. This includes everything from security research to lessons on online privacy and safety.
+Goals # Cybersecurity UW is committed to:
+ Helping people from all backgrounds and walks of life learn about security and online safety. Teaching individuals about the importance of managing their digital footprint and shared online information.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://cybersecurity-uw.github.io/website/about/other/privacy/</link>
+      <pubDate>Sat, 01 Jan 2022 00:03:01 +0000</pubDate>
+      
+      <guid>https://cybersecurity-uw.github.io/website/about/other/privacy/</guid>
+      <description>TL;DR: We do not use cookies and we do not collect any personal data.
+Website visitors #  No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No information is monetized.  Contact us # Contact us if you have any questions.</description>
+    </item>
+    
+  </channel>
+</rss>
