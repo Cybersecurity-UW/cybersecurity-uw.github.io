@@ -45,10 +45,10 @@ themeColor = "#fff"
 # Images
 quality = 85
 bgColor = "#fff"
-landscapePhotoWidths = [900, 800, 700, 600, 500]
-portraitPhotoWidths = [800, 700, 600, 500]
+landscapePhotoWidths = [2400, 1800, 1600, 1400, 1200, 1000, 900, 800, 700, 600, 500]
+portraitPhotoWidths = [1400, 1200, 1000, 900, 800, 700, 600, 500]
 lqipWidth = "20x"
-smallLimit = "300"
+smallLimit = "600"
 
 # Footer
 footer = "Copyright © 2022 Cybersecurity UW. All Rights Reserved.\n\nPowered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
