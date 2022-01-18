@@ -1,17 +1,12 @@
 [[main]]
   name = "About"
-  url = "/wiki/about/club-information"
+  url = "/about/about-us/club-info"
   weight = 10
 
 [[main]]
   name = "Blog"
   url = "/blog/"
   weight = 20
-
-[[main]]
-  name = "Wiki"
-  url = "/wiki/"
-  weight = 30
 
 [[main]]
   name = "Schedule"

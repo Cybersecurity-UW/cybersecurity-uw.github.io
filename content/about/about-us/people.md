@@ -2,13 +2,13 @@
 title: "People"
 description: "Our Leadership members."
 lead: ""
-date: 2020-10-06T08:49:31+00:00
-lastmod: 2020-10-06T08:49:31+00:00
+date: 2022-01-01T00:00:01+00:00
+lastmod: 2022-01-01T00:00:01+00:00
 draft: false
 images: []
 menu:
   wiki:
-    parent: "about"
+    parent: "about us"
 weight: 620
 toc: true
 showEditLink: false
@@ -22,7 +22,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/nic.jpg">
+					<img src="/images/people/nic.jpg">
 				</div>
 				<h3 class="title">Nic Draves</h3>
 				<span class="post">President</span>
@@ -31,7 +31,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/faith.png">
+					<img src="/images/people/faith.png">
 				</div>
 				<h3 class="title">Faith Issac</h3>
 				<span class="post">Head Officer</span>
@@ -40,7 +40,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/aidan.png">
+					<img src="/images/people/aidan.png">
 				</div>
 				<h3 class="title">Aidan McEllistrem</h3>
 				<span class="post">Head Officer</span>
@@ -49,7 +49,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/tony.jpg">
+					<img src="/images/people/tony.jpg">
 				</div>
 				<h3 class="title">Tony Tu</h3>
 				<span class="post">Head Officer</span>
@@ -64,7 +64,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/paul.jpg">
+					<img src="/images/people/paul.jpg">
 				</div>
 				<h3 class="title">Paul Chung</h3>
 				<span class="post">Webmaster</span>
@@ -73,7 +73,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/person.jpg">
+					<img src="/images/people/default.jpg">
 				</div>
 				<h3 class="title">Eileen Egan</h3>
 				<span class="post">Officer of Introductory Content</span>
@@ -82,7 +82,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/person.jpg">
+					<img src="/images/people/default.jpg">
 				</div>
 				<h3 class="title">Divyank Jain</h3>
 				<span class="post">Officer of Outreach</span>
@@ -91,7 +91,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/person.jpg">
+					<img src="/images/people/default.jpg">
 				</div>
 				<h3 class="title">Michael Noguera</h3>
 				<span class="post">TBD</span>
@@ -100,7 +100,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/person.jpg">
+					<img src="/images/people/default.jpg">
 				</div>
 				<h3 class="title">Jacob Sandum</h3>
 				<span class="post">Officer of Technical Content</span>
@@ -109,7 +109,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/person.jpg">
+					<img src="/images/people/default.jpg">
 				</div>
 				<h3 class="title">Raihan Tanvir</h3>
 				<span class="post">Technical Chair</span>
@@ -126,7 +126,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/dorothea.jpg">
+					<img src="/images/people/dorothea.jpg">
 				</div>
 				<h3 class="title">Dorothea Salo</h3>
 				<span class="post">Head Advisor</span>
@@ -135,7 +135,7 @@ showEditLink: false
 		<div class="col-md-3 col-sm-6">
 			<div class="our-team">
 				<div class="pic">
-					<img src="/images/hakan.jpg">
+					<img src="/images/people/hakan.jpg">
 				</div>
 				<h3 class="title">Hakan Dingenc</h3>
 				<span class="post">Graduate Advisor</span>

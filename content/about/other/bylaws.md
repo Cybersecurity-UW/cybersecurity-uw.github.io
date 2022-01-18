@@ -2,14 +2,14 @@
 title: "Bylaws"
 description: "The articles governing our club operation."
 lead: "Cybersecurity UW Student Organization Bylaws – Fall 2020 to Spring 2021"
-date: 2020-10-06T08:49:31+00:00
-lastmod: 2020-10-06T08:49:31+00:00
+date: 2022-01-01T00:03:00+00:00
+lastmod: 2022-01-01T00:03:00+00:00
 draft: false
 images: []
 menu:
   wiki:
-    parent: "about"
-weight: 630
+    parent: "other"
+weight: 700
 toc: true
 showEditLink: false
 ---

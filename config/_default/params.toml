@@ -10,14 +10,13 @@ description = "Cybersecurity UW is a student organization that allows its member
 # wikiVersion = "0.1"
 
 ## Open Graph
-images = ["doks.png"] # TODO
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app" # TODO
 titleHome = "Cybersecurity UW"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@getdoks" # TODO
+twitterCreator = "@henkverlinde" # TODO
 
 ## JSON-LD
 # schemaType = "Person"

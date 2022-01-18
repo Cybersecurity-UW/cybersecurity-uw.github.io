@@ -22,7 +22,7 @@ images: []
   </div>
   <br />
   <div class="form-group" style="text-align: left">
-    <label for="email">Email address</label>
+    <label for="email">Email Address</label>
     <input type="email" class="form-control" id="email" name="Email" placeholder="Ex. NetID@wisc.edu" required>
   </div>
   <br />

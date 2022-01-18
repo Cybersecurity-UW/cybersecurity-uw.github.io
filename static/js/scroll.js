@@ -23,6 +23,11 @@ const throttle = (fn, wait) => {
 const backToTop = document.getElementById("back-to-top");
 window.addEventListener("scroll",
     throttle(function () {
-        window.scrollY > 100 ? backToTop.classList.add("show") : backToTop.classList.remove("show");
+        if (window.scrollY > 100) {
+          backToTop.classList.replace("hide", "show");
+          backToTop.classList.add("show")
+        } else {
+          backToTop.classList.replace("show", "hide");
+        }
     }, 1000)
 );

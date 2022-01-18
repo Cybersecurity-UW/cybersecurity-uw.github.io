@@ -97,31 +97,41 @@ a.btn:focus {
   padding-bottom: 1rem;
 }
 
-/*
-.section svg {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  vertical-align: text-top;
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-*/
 
-/*
-body {
-  padding-top: 3.5625rem;
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
-*/
 
 #back-to-top {
   visibility: hidden;
   bottom: 25px;
-  padding-right: 25px;
+  right: 25px;
   position: fixed;
-  right: 0;
   z-index: 1;
 
   &.show {
     visibility: visible;
+    animation: fadein 0.2s ease;
+  }
+
+  &.hide {
+    visibility: visible;
+    animation: fadeout 0.2s ease;
+    animation-fill-mode: forwards;
   }
 
   a {

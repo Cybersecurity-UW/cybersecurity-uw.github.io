@@ -6,7 +6,7 @@
 			<div class="text-left">{{ .Content | markdownify }}</div>
 			<div class="card-list">
 				{{ $currentSection := .CurrentSection }}
-				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+				{{ range where .Site.RegularPages.ByDate "Section" .Section }}
 				{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
 				<div class="card my-3">
 					<div class="card-body">
@@ -20,6 +20,8 @@
 				</div>
 				{{ end }}
 				{{ end }}
+				<br />
+
 			</div>
 		</article>
 	</div>
