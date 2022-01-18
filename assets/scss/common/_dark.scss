@@ -549,6 +549,32 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 // Dark calendar fix, TBD
-[data-dark-mode] tbody th {
-  background-color: $body-bg-dark;
+[data-dark-mode] .fc .fc-list-event:hover td {
+    background-color: $body-bg-dark;
 }
+
+[data-dark-mode] .fc-theme-standard .fc-list-day-cushion {
+    background-color: $body-overlay-dark;
+}
+
+[data-dark-mode] .fc-theme-standard .fc-list {
+    border: 1px solid $gray-800;
+}
+
+[data-dark-mode] .fc-theme-standard td,
+  .fc-theme-standard th {
+    border: 1px solid $gray-700;
+}
+
+[data-dark-mode] .fc-theme-standard .fc-scrollgrid {
+    border: 1px solid $gray-700;;
+}
+
+[data-dark-mode] .fc-theme-standard .fc-popover {
+    border: 1px solid $gray-700;
+}
+
+[data-dark-mode] .fc th {
+    border: 1px solid $gray-700;
+}
+

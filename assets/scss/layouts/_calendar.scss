@@ -29,6 +29,7 @@
     box-sizing: border-box;
   }
 .fc table {
+    margin: 0 0;
     border-collapse: collapse;
     border-spacing: 0;
     font-size: 1em; /* normalize cross-browser */
@@ -58,8 +59,7 @@
 .fc-theme-standard td,
   .fc-theme-standard th {
     border: 1px solid #ddd;
-    border: 1px solid var(--fc-border-color, #ddd);
-  }
+}
 /* for FF, which doesn't expand a 100% div within a table cell. use absolute positioning */
 /* inner-wrappers are responsible for being absolute */
 /* TODO: best place for this? */
@@ -334,7 +334,6 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   }
 .fc-theme-standard .fc-scrollgrid {
     border: 1px solid #ddd;
-    border: 1px solid var(--fc-border-color, #ddd); /* bootstrap does this. match */
   }
 .fc .fc-scrollgrid,
     .fc .fc-scrollgrid table { /* all tables (self included) */
@@ -680,7 +679,6 @@ A HORIZONTAL event
   }
 .fc-theme-standard .fc-popover {
     border: 1px solid #ddd;
-    border: 1px solid var(--fc-border-color, #ddd);
     background: #fff;
     background: var(--fc-page-bg-color, #fff);
   }
@@ -1325,8 +1323,7 @@ A VERTICAL event
 }
 .fc-theme-standard .fc-list {
     border: 1px solid #ddd;
-    border: 1px solid var(--fc-border-color, #ddd);
-  }
+}
 .fc {
 
   /* message when no events */
@@ -1362,7 +1359,7 @@ A VERTICAL event
       top: 0;
       background: #fff;
       background: var(--fc-page-bg-color, #fff); /* for when headers are styled to be transparent and sticky */
-    }
+}
 .fc {
 
   /* only exists for aria reasons, hide for non-screen-readers */
@@ -1401,8 +1398,7 @@ A VERTICAL event
     }
 .fc-theme-standard .fc-list-day-cushion {
     background-color: rgba(208, 208, 208, 0.3);
-    background-color: var(--fc-neutral-bg-color, rgba(208, 208, 208, 0.3));
-  }
+}
 .fc-direction-ltr .fc-list-day-text,
 .fc-direction-rtl .fc-list-day-side-text {
   float: left;

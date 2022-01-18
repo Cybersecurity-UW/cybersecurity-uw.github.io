@@ -11,6 +11,7 @@ menu:
     parent: "about"
 weight: 620
 toc: true
+showEditLink: false
 ---
 <link rel="stylesheet" href="/css/people.css">
 

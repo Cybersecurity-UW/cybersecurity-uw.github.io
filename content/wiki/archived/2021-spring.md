@@ -9,6 +9,7 @@ menu:
     parent: "archived"
 weight: 640
 toc: true
+showEditLink: false
 ---
 
 (These meeting details are migrated from the old website.)

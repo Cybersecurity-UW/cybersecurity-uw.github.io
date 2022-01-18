@@ -11,6 +11,7 @@ menu:
     parent: "about"
 weight: 610
 toc: true
+showEditLink: false
 ---
 
 Cybersecurity UW was founded in the Information School at 2019.
