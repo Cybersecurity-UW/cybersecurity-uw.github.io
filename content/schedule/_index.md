@@ -3,6 +3,7 @@ title : "Schedule"
 type: "calendar"
 layout: "single"
 ---
+<link rel="stylesheet" href="/css/full-calendar.css">
 
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
