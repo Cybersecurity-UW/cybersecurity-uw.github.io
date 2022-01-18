@@ -2,7 +2,7 @@
   <ul class="list-unstyled collapsible-sidebar">
   {{ $currentPage := . -}}
   {{ range $index, $element := .Site.Menus.wiki -}}
-  {{- $active := or ($currentPage.IsMenuCurrent "wiki" .) ($currentPage.HasMenuCurrent "wiki" .) -}}
+  {{- $active := or ($currentPage.IsMenuCurrent "about" .) ($currentPage.HasMenuCurrent "about" .) -}}
   {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
     <li class="mb-1">
       <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
@@ -12,7 +12,7 @@
       <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ .Identifier }}">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
         {{ range .Children -}}
-          {{- $active := or ($currentPage.IsMenuCurrent "wiki" .) ($currentPage.HasMenuCurrent "wiki" .) -}}
+          {{- $active := or ($currentPage.IsMenuCurrent "about" .) ($currentPage.HasMenuCurrent "about" .) -}}
           {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
           <li><a class="wiki-link rounded{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end -}}
@@ -29,7 +29,7 @@
     {{ if .HasChildren -}}
     <ul class="list-unstyled">
       {{ range .Children -}}
-        {{- $active := or ($currentPage.IsMenuCurrent "wiki" .) ($currentPage.HasMenuCurrent "wiki" .) -}}
+        {{- $active := or ($currentPage.IsMenuCurrent "about" .) ($currentPage.HasMenuCurrent "about" .) -}}
         {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
         <li><a class="wiki-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end -}}

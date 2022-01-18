@@ -1,7 +1,6 @@
 ---
 title: "People"
 description: "Our Leadership members."
-lead: ""
 date: 2022-01-01T00:00:01+00:00
 lastmod: 2022-01-01T00:00:01+00:00
 draft: false
@@ -9,7 +8,7 @@ images: []
 menu:
   wiki:
     parent: "about us"
-weight: 620
+weight: 110
 toc: true
 showEditLink: false
 ---

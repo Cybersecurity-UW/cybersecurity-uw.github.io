@@ -3,11 +3,3 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
-
-# /wiki/1.0/prologue/   /wiki/1.0/prologue/introduction/
-# /wiki/1.0/help/       /wiki/1.0/help/how-to-update/
-# /wiki/1.0/            /wiki/1.0/prologue/introduction/
-# /wiki/                /wiki/1.0/prologue/introduction/
-#
-# /wiki/0.1/*           https://v0-1-0--doks-versioning-poc.netlify.app/wiki/0.1/:splat  200
-# /wiki/0.2/*           https://v0-2-0--doks-versioning-poc.netlify.app/wiki/0.2/:splat  200

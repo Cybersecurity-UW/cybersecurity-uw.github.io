@@ -9,7 +9,7 @@ images: []
 menu:
   wiki:
     parent: "other"
-weight: 700
+weight: 300
 toc: true
 showEditLink: false
 ---

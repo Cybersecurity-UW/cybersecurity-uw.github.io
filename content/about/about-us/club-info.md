@@ -9,7 +9,7 @@ images: []
 menu:
   wiki:
     parent: "about us"
-weight: 610
+weight: 100
 toc: true
 showEditLink: false
 ---
@@ -33,4 +33,5 @@ Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-
 
 ## Contact
 
-:email: E-mail: csec@ischool.wisc.edu
+- :star2: You can fill out [this form](/contact).
+- :email: E-mail: csec@ischool.wisc.edu

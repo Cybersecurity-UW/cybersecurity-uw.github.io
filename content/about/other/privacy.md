@@ -7,7 +7,7 @@ draft: false
 menu:
   wiki:
     parent: "other"
-weight: 710
+weight: 310
 toc: true
 showEditLink: false
 ---
