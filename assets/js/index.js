@@ -93,8 +93,8 @@ Source:
   */
 
   // https://discourse.gohugo.io/t/range-length-or-last-element/3803/2
+  {{ $list := (where .Site.Pages "Section" "blog") -}}
 
-  {{ $list := (where .Site.Pages "Section" "wiki") -}}
   {{ $len := (len $list) -}}
 
   index.add(

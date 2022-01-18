@@ -112,7 +112,7 @@ Our Leadership members.
 					<img src="/images/person.jpg">
 				</div>
 				<h3 class="title">Raihan Tanvir</h3>
-				<span class="post">TBD</span>
+				<span class="post">Technical Chair</span>
 			</div>
 		</div>
 	</div>

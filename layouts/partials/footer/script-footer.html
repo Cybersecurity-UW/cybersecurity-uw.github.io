@@ -59,6 +59,9 @@
 
 {{ $js := $slice | resources.Concat "main.js" -}}
 
+<script src="/js/scroll.js" defer></script>
+<script src="/js/full-calendar.js" defer></script>
+
 {{ if eq (hugo.Environment) "development" -}}
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" defer></script>
@@ -74,7 +77,7 @@
   {{ with .Params.mermaid -}}
     <script src="{{ $mermaid.RelPermalink }}" defer></script>
   {{ end -}}
-  {{ if and (.Site.Params.options.flexSearch) (eq .Section "wiki") -}}
+  {{ if and (.Site.Params.options.flexSearch) (or (eq .Section "wiki") (eq .Section "blog")) -}}
     <script src="{{ $index.RelPermalink }}" defer></script>
   {{ end -}}
 {{ else -}}

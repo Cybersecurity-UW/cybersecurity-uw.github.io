@@ -112,6 +112,33 @@ body {
 }
 */
 
+#back-to-top {
+  visibility: hidden;
+  bottom: 25px;
+  padding-right: 25px;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+
+  &.show {
+    visibility: visible;
+  }
+
+  a {
+    height: 64px;
+    width: 64px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 5px 5px #404040;
+  }
+
+  svg {
+    fill: $primary;
+  }
+
+}
+
 .wiki-sidebar {
   order: 2;
 }
@@ -126,7 +153,8 @@ body {
     .wiki-sidebar {
       position: -webkit-sticky;
       position: sticky;
-      top: 4rem;
+      // TBD if wiki search
+      top: 0rem;
       z-index: 1000;
       height: calc(100vh - 4rem);
     }

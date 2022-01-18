@@ -542,6 +542,12 @@ $navbar-dark-active-color:          $link-color-dark;
   }
 }
 
+[data-dark-mode] #back-to-top {
+  svg {
+    fill: $link-color-dark;
+  }
+}
+
 // Dark calendar fix, TBD
 [data-dark-mode] tbody th {
   background-color: $body-bg-dark;

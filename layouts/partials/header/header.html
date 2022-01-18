@@ -94,40 +94,24 @@
 </div>
 {{ end -}}
 
-{{ if eq .Section "wiki" -}}
+{{ if (eq .Section "blog") -}}
 <nav class="doks-subnavbar py-2 sticky-lg-top{{ if eq .Site.Params.options.flexSearch false }} d-lg-none{{ end }}" aria-label="Secondary navigation">
   <div class="container-xxl d-flex align-items-md-center">
-
     {{ if .Site.Params.options.flexSearch -}}
     <form class="doks-search position-relative flex-grow-1 me-auto">
-      <input id="search" class="form-control is-search" type="search" placeholder="Search wiki..." aria-label="Search wiki..." autocomplete="off">
+      <input id="search" class="form-control is-search" type="search" placeholder="Search {{.Section}}..." aria-label="Search {{.Section}}..." autocomplete="off">
       <div id="suggestions" class="shadow bg-white rounded d-none"></div>
     </form>
     {{ end -}}
-
-    {{ if eq .Site.Params.options.wikiVersioning true -}}
-    <div class="dropdown ms-3">
-      <button class="btn btn-doks-light dropdown-toggle" id="doks-versions" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Toggle version menu">
-        <span class="d-none d-lg-inline">Doks</span> v{{ .Site.Params.wikiVersion }}
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-versions">
-        <li><a class="dropdown-item current" aria-current="true" href="/wiki/{{ .Site.Params.wikiVersion }}/prologue/introduction/">Latest ({{ .Site.Params.wikiVersion }}.x)</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/wiki/0.2/prologue/introduction/">v0.2.x</a></li>
-        <li><a class="dropdown-item" href="/wiki/0.1/prologue/introduction/">v0.1.x</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/wiki/versions/">All versions</a></li>
-      </ul>
-    </div>
-    {{ end -}}
-
-    <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed{{ if eq .Site.Params.options.flexSearch false }} ms-auto{{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#doks-wiki-nav" aria-controls="doks-wiki-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-    </button>
-
   </div>
 </nav>
+{{ end -}}
+
+{{ if (eq .Section "wiki") -}}
+<button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed{{ if eq .Site.Params.options.flexSearch false }} ms-auto{{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#doks-wiki-nav" aria-controls="doks-wiki-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+</button>
 
 <div class="container-xxl">
   <aside class="doks-sidebar">
@@ -136,25 +120,4 @@
     </nav>
   </aside>
 </div>
-{{ end -}}
-
-<!--blog search implementation TBD-->
-{{ if eq .Section "blog" -}}
-<nav class="doks-subnavbar py-2 sticky-lg-top{{ if eq .Site.Params.options.flexSearch false }} d-lg-none{{ end }}" aria-label="Secondary navigation">
-  <div class="container-xxl d-flex align-items-md-center">
-
-    {{ if .Site.Params.options.flexSearch -}}
-    <form class="doks-search position-relative flex-grow-1 me-auto">
-      <input id="search" class="form-control is-search" type="search" placeholder="Search blog..." aria-label="Search blog..." autocomplete="off">
-      <div id="suggestions" class="shadow bg-white rounded d-none"></div>
-    </form>
-    {{ end -}}
-
-    <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed{{ if eq .Site.Params.options.flexSearch false }} ms-auto{{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#doks-wiki-nav" aria-controls="doks-wiki-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-    </button>
-
-  </div>
-</nav>
 {{ end -}}
