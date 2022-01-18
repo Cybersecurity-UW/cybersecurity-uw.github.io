@@ -1,7 +1,189 @@
-# website
-Website for Cybersecurity UW Club
+# Cybersecurity UW website.
 
-Managed by Patrick Hwang 
-phwang4@wisc.edu
+(In development 2021-present)
 
-cybersecurityuw.tech
+Currently destined for https://cybersecurity-uw.github.io, potentially another domain.
+
+Content is copied from the previous iteration of the site. Site is forked from the Doks theme example.
+
+## Dependencies
+This project is built on:
+- **Hugo** ([https://gohugo.io](https://gohugo.io)), a static site generator written in Go. It takes markdown articles and json-like configuration files as input, and outputs static html.
+The main advantage of Hugo is its speed.
+- **Doks**, a theme for Hugo ([https://getdoks.org](https://getdoks.org)). This is (currently the only) theme implementation of Netlify's reccomended site setup.
+- **Bootstrap** for the frontend, via Doks.
+- **Node**, as a dependency for Doks. The build pipeline and package management are used directly when working on the site, and the output indirectly uses Node for progressive rendering. See the Doks readme for more details.
+- Free static hosting via **Netlify, Cloudflare, or Github Pages**, if server space is not availiable.
+
+## Setup
+1. **Install Node.** I find [nvm](https://github.com/nvm-sh/nvm) helpful but have only used it for a week. Here are the [DigitalOcean instructions](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04) if you find them helpful.
+2. **Clone this repo.** (specifically this branch for now, later maybe not)
+```bash
+$ git clone -b hugo-rewrite https://github.com/Cybersecurity-UW/website
+```
+3. Following installation, **run `npm install`** to download needed modules. This should also install Hugo, if it does not you can follow [these directions](https://gohugo.io/getting-started/installing/).
+
+:tada: You're done! `npm run start` will start the local development environment, usually at http://localhost:1313.
+
+## Committing changes
+Before you push commits, please do the following:
+
+First, check that the site looks as you want it to in your browser.
+
+```bash
+$ npm run start  # local development server, see output
+```
+
+Second, double-check that the site builds without error.
+
+```bash
+$ npm run clean  # delete reminants of previous build
+$ npm run build  # build the site from the current code
+```
+
+Finally, to keep styling consistent, verify that your edits match the style guide inherited from the theme project.
+```bash
+$ npm run lint  # check for style issues, please fix and re-check until none are identified
+```
+
+
+
+
+---
+
+<h1 align="center">
+  <a href="https://getdoks.org/">Doks</a>
+</h1>
+
+<h3 align="center">
+  Modern Documentation Theme
+</h3>
+
+<p align="center">
+  Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
+</p>
+
+<p align="center">
+  <a href="https://github.com/h-enk/doks/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/h-enk/doks?style=flat-square" alt="GitHub">
+  </a>
+  <a href="https://github.com/h-enk/doks/releases">
+    <img src="https://img.shields.io/github/v/release/h-enk/doks?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
+  </a>
+  <a href="https://www.npmjs.com/package/@hyas/doks">
+    <img src="https://img.shields.io/npm/v/@hyas/doks?style=flat-square" alt="npm (scoped)">
+  </a>
+  <a href="https://github.com/h-enk/doks/actions?query=workflow%3A%22Hyas+CI%22">
+    <img src="https://img.shields.io/github/workflow/status/h-enk/doks/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
+  </a>
+  <a href="https://app.netlify.com/sites/doks/deploys">
+    <img src="https://img.shields.io/netlify/8a1009d5-88ac-413e-96ef-3f928674a083?style=flat-square" alt="Netlify">
+  </a>
+</p>
+
+![Doks — Modern Documentation Theme](https://raw.githubusercontent.com/h-enk/doks/master/images/tn.png)
+
+## Demo
+
+- [doks.netlify.app](https://doks.netlify.app/)
+
+## Why Doks?
+
+Nine main reasons why you should use Doks:
+
+1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/doks.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
+
+2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=7731347bb8ce999eff7428a8e763b637) by default. Doks removes unused css, prefetches links, and lazy loads images.
+
+3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
+
+4. __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
+
+5. __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap 5. Easily customize your Doks site with the source Sass files.
+
+6. __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
+
+7. __Full text search__. Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.
+
+8. __Page layouts__. Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.
+
+9. __Dark mode__. Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.
+
+### Other features
+
+- __Multilingual and i18n__ support
+- __Versioning__ documentation support
+- __KaTeX__ math typesetting
+- __Mermaid__ diagrams and visualization
+- __highlight.js__ syntax highlighting
+
+## Requirements
+
+Doks uses npm to centralize dependency management, making it [easy to update](https://getdoks.org/docs/help/how-to-update/) resources, build tooling, plugins, and build scripts:
+
+- Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform.
+
+## Get started
+
+Start a new Doks project in three steps:
+
+### 1. Create a new site
+
+Doks is available as a child theme, and a starter theme:
+
+- Use the Doks child theme, if you do __not__ plan to customize a lot, and/or need future Doks updates.
+- Use the Doks starter theme, if you plan to customize a lot, and/or do __not__ need future Doks updates.
+
+Not quite sure? Use the Doks child theme.
+
+#### Doks child theme
+
+```bash
+git clone https://github.com/h-enk/doks-child-theme.git my-doks-site && cd my-doks-site
+```
+
+#### Doks starter theme
+
+```bash
+git clone https://github.com/h-enk/doks.git my-doks-site && cd my-doks-site
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start development server
+
+```bash
+npm run start
+```
+
+## Other commands
+
+Doks comes with [commands](https://getdoks.org/docs/prologue/commands/) for common tasks.
+
+## Documentation
+
+- [Netlify](https://docs.netlify.com/)
+- [Hugo](https://gohugo.io/documentation/)
+- [Doks](https://getdoks.org/)
+
+## Communities
+
+- [Netlify Community](https://community.netlify.com/)
+- [Hugo Forums](https://discourse.gohugo.io/)
+- [Doks Discussions](https://github.com/h-enk/doks/discussions)
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/doks)]
+
+[![OC sponsor 0](https://opencollective.com/doks/sponsor/0/avatar.svg)](https://opencollective.com/doks/sponsor/0/website)
+
+## Backers
+
+Support this project by becoming a backer. Your avatar will show up here. [[Become a backer](https://opencollective.com/doks)]
+
+[![Backers](https://opencollective.com/doks/backers.svg)](https://opencollective.com/doks)

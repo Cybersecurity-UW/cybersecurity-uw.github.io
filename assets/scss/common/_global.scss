@@ -1,0 +1,310 @@
+.people .content,
+.blog .content,
+.page .content,
+.error404 .content,
+.wiki.list .content,
+.tutorial.list .content,
+.showcase.list .content {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 2rem 0 1rem;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid $gray-300;
+  padding-top: 1.0625rem;
+  padding-bottom: 0.8125rem;
+}
+
+h5.offcanvas-title {
+  margin: 0;
+}
+
+body.wiki {
+  padding-top: 0 !important;
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    font-size: $font-size-md;
+
+    /*
+    padding-top: 4rem !important;
+    */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    margin-bottom: 1.125rem;
+  }
+}
+
+.home h1 {
+  /* font-size: calc(1.375rem + 1.5vw); */
+  font-size: calc(1.875rem + 1.5vw);
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a.btn:hover,
+a.btn:focus {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section-md {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-sm {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#back-to-top {
+  visibility: hidden;
+  bottom: 25px;
+  right: 25px;
+  position: fixed;
+  z-index: 1;
+
+  &.show {
+    visibility: visible;
+    animation: fadein 0.2s ease;
+  }
+
+  &.hide {
+    visibility: visible;
+    animation: fadeout 0.2s ease;
+    animation-fill-mode: forwards;
+  }
+
+  a {
+    height: 64px;
+    width: 64px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 5px 5px #404040;
+  }
+
+  svg {
+    fill: $primary;
+  }
+
+}
+
+.wiki-sidebar {
+  order: 2;
+}
+
+@include media-breakpoint-up(lg) {
+  .wiki-sidebar {
+    order: 0;
+    border-right: 1px solid $gray-200;
+  }
+
+  @supports ((position:-webkit-sticky) or (position:sticky)) {
+    .wiki-sidebar {
+      position: -webkit-sticky;
+      position: sticky;
+      // TBD if wiki search
+      top: 0rem;
+      z-index: 1000;
+      height: calc(100vh - 4rem);
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .wiki-sidebar {
+    flex: 0 1 320px;
+  }
+}
+
+.wiki-links {
+  padding-bottom: 5rem;
+}
+
+@include media-breakpoint-up(lg) {
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
+    .wiki-links {
+      max-height: calc(100vh - 4rem);
+      overflow-y: scroll;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .wiki-links {
+    display: block;
+    width: auto;
+    margin-right: -1.5rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.wiki-toc {
+  order: 2;
+}
+
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+  .wiki-toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+}
+
+.wiki-content {
+  padding-bottom: 3rem;
+  order: 1;
+}
+
+.wiki-navigation {
+  border-top: 1px solid $gray-200;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-top: 2rem;
+}
+
+.wiki-navigation a {
+  font-size: $font-size-base * 0.9;
+}
+
+@include media-breakpoint-up(lg) {
+  .wiki-navigation {
+    margin-bottom: -1rem;
+  }
+
+  .wiki-navigation a {
+    font-size: $font-size-base;
+  }
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: none;
+}
+
+#TableOfContents ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+::selection {
+  background: rgba(212, 53, 159, 0.2);
+}
+
+.bg-dots {
+  background-image: radial-gradient($gray-300 15%, transparent 15%);
+  background-position: 0 0;
+  background-size: 1rem 1rem;
+  -webkit-mask: linear-gradient(to top, #fff, transparent);
+  mask: linear-gradient(to top, #fff, transparent);
+  width: 100%;
+  height: 9rem;
+  margin-top: -10rem;
+  z-index: -1;
+}
+
+.bg-dots-md {
+  margin-top: -11rem;
+}
+
+.bg-dots-lg {
+  margin-top: -12rem;
+}
+
+// https://fossheim.io/writing/posts/css-text-gradient/
+.gradient-text {
+  background-color: $primary;
+  background-image: linear-gradient(90deg, $primary, $blue-300 50%, $pink-500);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.katex {
+  font-size: $font-size-md;
+}
+
+.card-bar {
+  border-top: 4px solid;
+  border-image-source: linear-gradient(90deg, $primary, #8ed6fb 50%, #d32e9d);
+  border-image-slice: 1;
+}
+
+.modal-backdrop {
+  background-color: #fff;
+}
+
+.modal-backdrop.show {
+  opacity: 0.7;
+}
+
+@include media-breakpoint-up(md) {
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+}

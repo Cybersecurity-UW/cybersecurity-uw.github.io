@@ -1,0 +1,84 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Cybersecurity UW"
+titleSeparator = "-"
+titleAddition = "UW-Madison Student Cybersecurity Club"
+description = "Cybersecurity UW is a student organization that allows its members to learn and explore security in a collaborative environment."
+
+## Documentation
+# wikiVersion = "0.1"
+
+## Open Graph
+ogLocale = "en_US"
+domainTLD = "doks.netlify.app" # TODO
+titleHome = "Cybersecurity UW"
+
+## Twitter Cards
+twitterSite = "@getdoks" # TODO
+twitterCreator = "@henkverlinde" # TODO
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Cybersecurity UW"
+schemaAuthor = ["Michael Noguera", "Paul Chung"]
+schemaAuthorGitHub = ["https://github.com/michaelnoguera", "https://github.com/pywc"]
+schemaLocale = "en-US"
+#schemaLogo = "logo-doks.png" # TODO
+#schemaLogoWidth = 512
+#schemaLogoHeight = 512
+#schemaImage = "doks.png" # TODO
+#schemaImageWidth = 1280
+#schemaImageHeight = 640
+#schemaTwitter = "https://twitter.com/getdoks"
+#schemaLinkedIn = ""
+schemaGitHub = "https://github.com/Cybersecurity-UW"
+#schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [2400, 1800, 1600, 1400, 1200, 1000, 900, 800, 700, 600, 500]
+portraitPhotoWidths = [1400, 1200, 1000, 900, 800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "600"
+
+# Footer
+footer = "Copyright © 2022 Cybersecurity UW. All Rights Reserved.\n\nPowered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2020-2022 Michael Noguera, Paul Chung, and site contributors"
+
+# Alert
+alert = true
+alertDismissable = false
+alertText = "<strong>Note:</strong> We are a student-run club at UW-Madison, unaffiliated with the official <a class=\"alert-link stretched-link\" href=\"https://cybersecurity.wisc.edu/\" target=\"_blank\" rel=\"noopener\">Office of Cybersecurity</a>."
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+wikiRepo = "https://github.com/Cybersecurity-UW/website"
+wikiRepoBranch = "hugo-rewrite"
+editPage = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
+  kaTex = false
+  collapsibleSidebar = false
+  multilingualMode = false
+  wikiVersioning = false

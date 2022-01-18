@@ -1,0 +1,28 @@
+.home .card,
+.people.list .card,
+.blog.list .card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+.home .card:hover,
+.people.list .card:hover,
+.blog.list .card:hover {
+  transform: scale(1.025);
+}
+
+.home .card-body,
+.people.list .card-body,
+.blog.list .card-body {
+  padding: 0 2rem 1rem;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blog-footer {
+  text-align: center;
+}
