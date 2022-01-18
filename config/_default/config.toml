@@ -1,5 +1,5 @@
-baseurl = "https://cybersecurity-uw.github.io/"
-canonifyURLs = false
+baseurl = "https://cybersecurity-uw.github.io/website"
+canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
