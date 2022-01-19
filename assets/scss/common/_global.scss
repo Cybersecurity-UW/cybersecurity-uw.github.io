@@ -118,6 +118,15 @@ a.btn:focus {
   }
 }
 
+.wiki-navigation a {
+  font-size: $font-size-base * 0.9;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: none;
+}
+
 #back-to-top {
   visibility: hidden;
   bottom: 25px;
@@ -226,10 +235,6 @@ a.btn:focus {
   padding-top: 2rem;
 }
 
-.wiki-navigation a {
-  font-size: $font-size-base * 0.9;
-}
-
 @include media-breakpoint-up(lg) {
   .wiki-navigation {
     margin-bottom: -1rem;
@@ -238,11 +243,6 @@ a.btn:focus {
   .wiki-navigation a {
     font-size: $font-size-base;
   }
-}
-
-.navbar a:hover,
-.navbar a:focus {
-  text-decoration: none;
 }
 
 #TableOfContents ul {

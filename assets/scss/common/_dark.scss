@@ -277,10 +277,6 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 */
 
-[data-dark-mode] body .form-control {
-  color: $gray-300;
-}
-
 [data-dark-mode] body .form-control::placeholder {
   color: $gray-400;
   opacity: 1;
@@ -492,14 +488,9 @@ $navbar-dark-active-color:          $link-color-dark;
 
 // Dark arrow color, TBD
 [data-dark-mode] .form-select {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background: $body-overlay-dark;
   border: 1px solid transparent;
   border-color: $gray-600;
-
-  img {
-    stroke: white;
-  }
 }
 
 [data-dark-mode] body .form-control:focus {
@@ -545,7 +536,11 @@ $navbar-dark-active-color:          $link-color-dark;
   }
 }
 
-// Dark calendar fix, TBD
+[data-dark-mode] .fc-theme-standard td,
+.fc-theme-standard th {
+  border: 1px solid $gray-700;
+}
+
 [data-dark-mode] .fc .fc-list-event:hover td {
   background-color: $body-bg-dark;
 }
@@ -556,11 +551,6 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] .fc-theme-standard .fc-list {
   border: 1px solid $gray-800;
-}
-
-[data-dark-mode] .fc-theme-standard td,
-.fc-theme-standard th {
-  border: 1px solid $gray-700;
 }
 
 [data-dark-mode] .fc-theme-standard .fc-scrollgrid {

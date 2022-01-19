@@ -9,7 +9,7 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  postiion: relative;
+  position: relative;
   margin: -2.5em 0 0 -2em;
 }
 
@@ -55,7 +55,6 @@
   height: 100%;
   opacity: 1;
   z-index: 1;
-  opacity: 0.8;
 }
 
 .tiles article > .image::after {
@@ -182,6 +181,11 @@ body:not(.is-touch) .tiles article:hover > .image::after {
   opacity: 0;
 }
 
+body.is-touch .tiles article .content {
+  max-height: 15em;
+  opacity: 1;
+}
+
 body:not(.is-touch) .tiles article:hover .content {
   max-height: 15em;
   opacity: 1;
@@ -197,11 +201,6 @@ body.is-preload .tiles article {
   -ms-transform: scale(0.9);
   transform: scale(0.9);
   opacity: 0;
-}
-
-body.is-touch .tiles article .content {
-  max-height: 15em;
-  opacity: 1;
 }
 
 @media screen and (max-width: 1280px) {
@@ -254,7 +253,6 @@ body.is-touch .tiles article .content {
     margin: 1.25em 0 0 0;
   }
 }
-
 
 /* Main */
 
