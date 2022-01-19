@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>We&#39;re here on </title>
-    <link>https://cybersecurity-uw.github.io/contact/</link>
+    <link>https://cybersecurity-uw.github.io/website/contact/</link>
     <description>Recent content in We&#39;re here on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://cybersecurity-uw.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://cybersecurity-uw.github.io/website/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
