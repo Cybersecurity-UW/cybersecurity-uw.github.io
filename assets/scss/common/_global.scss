@@ -101,6 +101,7 @@ a.btn:focus {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -110,6 +111,7 @@ a.btn:focus {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     visibility: hidden;
@@ -146,7 +148,6 @@ a.btn:focus {
   svg {
     fill: $primary;
   }
-
 }
 
 .wiki-sidebar {
@@ -164,7 +165,7 @@ a.btn:focus {
       position: -webkit-sticky;
       position: sticky;
       // TBD if wiki search
-      top: 0rem;
+      top: 0;
       z-index: 1000;
       height: calc(100vh - 4rem);
     }

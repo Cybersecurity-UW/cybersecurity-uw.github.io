@@ -14,4 +14,5 @@ layout: "single"
 - We teach cybersecurity beginners how to use ethical hacking programs (like metasploit) and other cybersecurity relavent tools (such as API's)!
 
 ## :bus: Interested in joining?
+
 Please fill out the [interest form](contact) or contact us via [{{< email user="csec" domain="ischool.wisc.edu" >}}](mailto:csec@ischool.wisc.edu).

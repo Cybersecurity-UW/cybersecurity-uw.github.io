@@ -9,8 +9,10 @@ authors: ["Paul Chung"]
 
 
 Introducing the new homepage of Cybersecurity UW, newly built with Hugo, Doks, and with some secret ingredients.
+
 ```python
 print("Hello World!")
 ```
+
 Definitely better than what it used to look like, isn't it?
 ![Before](screenshot.png)

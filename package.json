@@ -1,11 +1,11 @@
 {
-  "name": "@hyas/doks",
-  "description": "Doks theme",
-  "version": "0.3.5",
+  "name": "@cybersecurity-uw/cybersecurity-uw.github.io",
+  "description": "Club website based off Doks theme",
+  "version": "2.0.0",
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/h-enk/doks",
+  "repository": "https://github.com/Cybersecurity-UW/cybersecurity-uw.github.io",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -21,7 +21,7 @@
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json node_modules ",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
-    "lint:scripts": "eslint assets/js config functions",
+    "lint:scripts": "eslint assets/js config functions --no-error-on-unmatched-pattern",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint \"*.md\" \"content/**/*.md\"",
     "server": "exec-bin node_modules/.bin/hugo/hugo server",
