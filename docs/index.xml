@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity UW on </title>
+    <link>https://cybersecurity-uw.github.io/</link>
+    <description>Recent content in Cybersecurity UW on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2020-2022 Michael Noguera, Paul Chung, and site contributors</copyright>
+    
+        <atom:link href="https://cybersecurity-uw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://cybersecurity-uw.github.io/about/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate>
+      
+      <guid>https://cybersecurity-uw.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://cybersecurity-uw.github.io/blog/</link>
+      <pubDate>Tue, 06 Oct 2020 08:45:55 +0000</pubDate>
+      
+      <guid>https://cybersecurity-uw.github.io/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://cybersecurity-uw.github.io/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cybersecurity-uw.github.io/schedule/</guid>
+      <description>document.addEventListener(&#39;DOMContentLoaded&#39;, function() { var calendarEl = document.getElementById(&#39;calendar&#39;); var calendar = new FullCalendar.Calendar(calendarEl, { initialView: &#39;dayGridMonth&#39;, headerToolbar: { left: &#39;prev,next today&#39;, center: &#39;title&#39;, right: &#39;dayGridMonth,listMonth&#39; }, events: [ { title: &#39;Meeting 1&#39;, url: &#39;#&#39;, start: &#39;2022-01-27T17:30:00&#39; }, { title: &#39;Meeting 2&#39;, url: &#39;#&#39;, start: &#39;2022-02-10T17:30:00&#39; }, { title: &#39;Meeting 3&#39;, url: &#39;#&#39;, start: &#39;2022-02-24T17:30:00&#39; }, { title: &#39;Meeting 4&#39;, url: &#39;#&#39;, start: &#39;2022-03-07T17:30:00&#39; }, { title: &#39;Meeting 5&#39;, url: &#39;#&#39;, start: &#39;2022-03-31T17:30:00&#39; }, { title: &#39;Meeting 6&#39;, url: &#39;#&#39;, start: &#39;2022-04-14T17:30:00&#39; }, { title: &#39;Meeting 7&#39;, url: &#39;#&#39;, start: &#39;2022-04-28T17:30:00&#39; }, ], eventAfterAllRender: function(view) { if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re here</title>
+      <link>https://cybersecurity-uw.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cybersecurity-uw.github.io/contact/</guid>
+      <description>user=&#34;csec&#34;,domain=&#34;ischool.wisc.edu&#34;,document.write(user+&#34;@&#34;+domain);csec at ischool.wisc.edu  First Name  Last Name  Email Address  Your Affiliation Select... UW-Madison Student Non UW-Madison Student Sponsor Other   Your Message   Submit  </description>
+    </item>
+    
+  </channel>
+</rss>
