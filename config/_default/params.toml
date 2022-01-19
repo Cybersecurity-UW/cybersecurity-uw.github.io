@@ -66,7 +66,7 @@ alertText = "<strong>Note:</strong> We are a student-run club at UW-Madison, una
 repoHost = "GitHub"
 #repoHost = "Gitea"
 wikiRepo = "https://github.com/Cybersecurity-UW/website"
-wikiRepoBranch = "hugo-rewrite"
+wikiRepoBranch = "master"
 editPage = true
 
 [options]
