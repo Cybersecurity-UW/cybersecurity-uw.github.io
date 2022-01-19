@@ -51,7 +51,7 @@ lqipWidth = "20x"
 smallLimit = "600"
 
 # Footer
-footer = "Copyright © 2022 Cybersecurity UW. All Rights Reserved.\n\nPowered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+footer = "Copyright © 2022 Cybersecurity UW. All Rights Reserved.<br />Powered by <a href=\"https://pages.github.com//\">Github Pages</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
 copyRight = "Copyright (c) 2020-2022 Michael Noguera, Paul Chung, and site contributors"
