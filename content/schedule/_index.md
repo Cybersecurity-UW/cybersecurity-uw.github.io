@@ -53,13 +53,19 @@ layout: "single"
         start: '2022-04-28T17:30:00'
       },
     ],
-    eventAfterAllRender: function(view) {
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-          $('#calendar').fullCalendar('changeView', 'listMonth');
-        } //IF MOBILE CHANGE VIEW TO LIST
-     }
   });
 
+  let details = navigator.userAgent;
+  let regexp = /android|iphone|kindle|ipad/i;
+  let isMobileDevice = regexp.test(details);
+
+  if (isMobileDevice) {
+      calendar.changeView('listMonth');
+  }
+
   calendar.render();
+
+
+
  });
 </script>
