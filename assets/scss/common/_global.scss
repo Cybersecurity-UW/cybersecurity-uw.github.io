@@ -217,7 +217,7 @@ a.btn:focus {
   .wiki-toc {
     position: -webkit-sticky;
     position: sticky;
-    top: 4rem;
+    top: 0rem;
     height: calc(100vh - 4rem);
     overflow-y: auto;
   }

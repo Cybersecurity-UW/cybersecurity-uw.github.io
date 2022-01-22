@@ -94,7 +94,7 @@ showEditLink: false
      <img src="/images/people/default.jpg">
     </div>
     <h3 class="title">Michael Noguera</h3>
-    <span class="post">TBD</span>
+    <span class="post">Officer of Technology</span>
    </div>
   </div>
   <div class="col-md-3 col-sm-6">
@@ -112,7 +112,7 @@ showEditLink: false
      <img src="/images/people/default.jpg">
     </div>
     <h3 class="title">Raihan Tanvir</h3>
-    <span class="post">Technical Chair</span>
+    <span class="post">Officer of Technology</span>
    </div>
   </div>
  </div>
