@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on </title>
-    <link>https://cybersecurity-uw.github.io/blog/</link>
+    <link>https://www.cybersecurityuw.com/blog/</link>
     <description>Recent content in Blog on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 06 Oct 2020 08:45:55 +0000</lastBuildDate><atom:link href="https://cybersecurity-uw.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 08:45:55 +0000</lastBuildDate><atom:link href="https://www.cybersecurityuw.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World 👋</title>
-      <link>https://cybersecurity-uw.github.io/blog/2022/01/hello-world/</link>
+      <link>https://www.cybersecurityuw.com/blog/2022/01/hello-world/</link>
       <pubDate>Mon, 17 Jan 2022 00:10:00 +0000</pubDate>
       
-      <guid>https://cybersecurity-uw.github.io/blog/2022/01/hello-world/</guid>
+      <guid>https://www.cybersecurityuw.com/blog/2022/01/hello-world/</guid>
       <description>Introducing the new homepage of Cybersecurity UW, newly built with Hugo, Doks, and with some secret ingredients.
 print(&amp;quot;Hello World!&amp;quot;)  Definitely better than what it used to look like, isn&amp;rsquo;t it?   </description>
     </item>
