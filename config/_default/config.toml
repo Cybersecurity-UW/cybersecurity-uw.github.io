@@ -1,4 +1,4 @@
-baseurl = "https://cybersecurity-uw.github.io/website"
+baseurl = "https://cybersecurity-uw.github.io/"
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
