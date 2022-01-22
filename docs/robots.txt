@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cybersecurity-uw.github.io/website/sitemap.xml
+Sitemap: https://cybersecurity-uw.github.io/sitemap.xml
