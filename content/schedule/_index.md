@@ -65,7 +65,5 @@ layout: "single"
 
   calendar.render();
 
-
-
  });
 </script>

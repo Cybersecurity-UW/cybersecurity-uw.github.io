@@ -173,7 +173,8 @@ a.btn:focus {
     .wiki-sidebar {
       position: -webkit-sticky;
       position: sticky;
-      // TBD if wiki search
+
+      /** TBD if wiki search */
       top: 0;
       z-index: 1000;
       height: calc(100vh - 4rem);
@@ -217,7 +218,7 @@ a.btn:focus {
   .wiki-toc {
     position: -webkit-sticky;
     position: sticky;
-    top: 0rem;
+    top: 0;
     height: calc(100vh - 4rem);
     overflow-y: auto;
   }
@@ -251,7 +252,7 @@ a.btn:focus {
 }
 
 ::selection {
-  background: rgba(212, 53, 159, 0.2);
+  background: rgba(212, 53, 159, 20%);
 }
 
 .bg-dots {
@@ -274,7 +275,7 @@ a.btn:focus {
   margin-top: -12rem;
 }
 
-// https://fossheim.io/writing/posts/css-text-gradient/
+/** https://fossheim.io/writing/posts/css-text-gradient */
 .gradient-text {
   background-color: $primary;
   background-image: linear-gradient(90deg, $primary, $blue-300 50%, $pink-500);

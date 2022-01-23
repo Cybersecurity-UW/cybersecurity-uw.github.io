@@ -1,6 +1,6 @@
 /** Theme variables */
 
-// Source: https://material.io/design/color/dark-theme.html
+/** Source: https://material.io/design/color/dark-theme.html */
 
 $body-bg-dark: $gray-900;
 $body-overlay-dark: darken($body-bg-dark, 2.5%);
@@ -83,7 +83,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(33, 37, 41, 0.95);
+  background-color: rgba(33, 37, 41, 95%);
   border-bottom: 1px solid $border-dark;
 }
 
@@ -134,10 +134,6 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar-light .navbar-text {
   color: $navbar-dark-color;
-}
-
-[data-dark-mode] body .alert-primary a {
-  //color: $body-bg-dark;
 }
 
 [data-dark-mode] body .alert-warning {
@@ -410,11 +406,6 @@ $navbar-dark-active-color:          $link-color-dark;
   color: darken($body-color-dark, 7.5%) !important;
 }
 
-[data-dark-mode] body .alert-primary {
-  //background: $link-color-dark;
-  //color: $body-bg-dark;
-}
-
 [data-dark-mode] body .figure-caption {
   color: $body-color-dark;
 }
@@ -486,7 +477,7 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $body-color-dark;
 }
 
-// Dark arrow color, TBD
+/** Dark arrow color, TBD */
 [data-dark-mode] .form-select {
   background: $body-overlay-dark;
   border: 1px solid transparent;

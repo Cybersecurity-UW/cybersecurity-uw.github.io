@@ -28,7 +28,7 @@
 
 .navbar {
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 95%);
   border-bottom: 1px solid $gray-200;
 
   /*
@@ -101,7 +101,7 @@ button#doks-versions {
 }
 
 .doks-subnavbar {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 95%);
   border-bottom: 1px solid $gray-200;
 }
 
@@ -129,7 +129,8 @@ button#doks-versions {
   margin-top: 4px;
 }
 */
-// color: #D95156,#C5050C,#05C54A,#0558C5
+
+/** color: #D95156,#C5050C,#05C54A,#0558C5 */
 .header-bar {
   border-top: 4px solid;
   border-image-source: linear-gradient(90deg, #d95156 0%, #ff3c00 100%);
@@ -272,7 +273,7 @@ button#doks-versions {
 }
 
 .algolia-autocomplete .ds-dropdown-menu {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 15%) !important;
 }
 
 @include media-breakpoint-down(sm) {
@@ -313,7 +314,8 @@ button#doks-versions {
 /*! purgecss end ignore */
 
 /*
- * Source: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
+ * Source: https://medium.com/creative-technology-concepts-code/
+ responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
 */
 
 /* Style the menu icon for the dropdown */

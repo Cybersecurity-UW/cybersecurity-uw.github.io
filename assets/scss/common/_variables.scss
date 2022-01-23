@@ -1,17 +1,39 @@
-// Color system
+/** Color system */
 
-// ===== UW Brand colors =====
-$uw-red: #c5050c; // UW–Madison’s primary color. Used for design elements, navigation bars, nonlinked headers, and backgrounds. Not used for links.
-$uw-red-dark: #9b0000; // Accent color. Used in alternating boxes component.
-$uw-page-bg: #f7f7f7; // Background color.
-$uw-gray-blue: #dadfe1; // Background and accent color.
-$uw-gray-darker: #646569; // Design element background color and accent color.
-$uw-gray-darkest: #282728; // Design element background color, accent color, and footer background color. Often used in place of black.
-$uw-body-font: #494949; // Used for standard text on a white background.
-$uw-anchor-color: #0479a8; // Used for links in standard text on a white background.
-$uw-gray-footer-text: #adadad; // Used for footer text.
-$uw-gray-footer-text-hover: #f9f9f9; // Used for links in footer text.
-// ===========================
+/** ===== UW Brand colors ===== */
+
+/** UW–Madison’s primary color. Used for design elements, navigation bars,
+nonlinked headers, and backgrounds. Not used for links. */
+$uw-red: #c5050c;
+
+/** Accent color. Used in alternating boxes component. */
+$uw-red-dark: #9b0000;
+
+/** Background color. */
+$uw-page-bg: #f7f7f7;
+
+/** Background and accent color. */
+$uw-gray-blue: #dadfe1;
+
+/** Design element background color and accent color. */
+$uw-gray-darker: #646569;
+
+/** Design element background color, accent color, and footer background color. Often used in place of black. */
+$uw-gray-darkest: #282728;
+
+/** Used for standard text on a white background. */
+$uw-body-font: #494949;
+
+/** Used for links in standard text on a white background. */
+$uw-anchor-color: #0479a8;
+
+/** Used for footer text. */
+$uw-gray-footer-text: #adadad;
+
+/** Used for links in footer text. */
+$uw-gray-footer-text-hover: #f9f9f9;
+
+/** =========================== */
 
 $white:    #fff;
 $gray-100: #f8f9fa;
@@ -28,7 +50,9 @@ $black:    #000;
 $yellow:   #ffe000;
 $black:    #1d2d35;
 $beige:    #fbf7f0;
-$red:      $uw-red; // #e55235;
+
+/** #e55235 */
+$red:      $uw-red;
 $purple:   #5d2f86;
 $brown:    #aa9c84;
 
@@ -44,9 +68,9 @@ $color-btn-bg: $pink-500;
 $color-btn-border: darken($pink-500, 5%);
 $color-btn-text: $white;
 
-// Options
-//
-// Quickly modify global styling by enabling or disabling optional features.
+/** Options */
+
+/** Quickly modify global styling by enabling or disabling optional features. */
 
 $enable-caret:                true;
 $enable-rounded:              true;
@@ -63,33 +87,33 @@ $enable-negative-margins:     true;
 $enable-deprecation-messages: true;
 $enable-important-utilities:  true;
 
-/** Bootstrap navbar fix (https://git.io/fADqW) */
+/** Bootstrap navbar fix (https:/**git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
 
-// Options
-//
-// Quickly modify global styling by enabling or disabling optional features.
+/** Options */
+
+/** Quickly modify global styling by enabling or disabling optional features. */
 
 $enable-responsive-font-sizes: true;
 
-// Body
-//
-// Settings for the `<body>` element.
+/** Body */
+
+/** Settings for the `<body>` element. */
 
 $body-bg:                   $uw-page-bg;
 $body-color:                #191919;
 
-// Links
-//
-// Style anchor elements.
+/** Links */
+
+/** Style anchor elements. */
 
 $link-color:                              $uw-anchor-color;
 $link-decoration:                         none;
 
-// Grid containers
-//
-// Define the maximum width of `.container` for different screen sizes.
+/** Grid containers */
+
+/** Define the maximum width of `.container` for different screen sizes. */
 
 $container-max-widths: (
   sm: 540px,
@@ -101,52 +125,57 @@ $container-max-widths: (
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
 
-// Grid columns
-//
-// Set the number of columns and specify the width of the gutters.
+/** Grid columns */
+
+/** Set the number of columns and specify the width of the gutters. */
 
 $grid-columns:                16;
 $grid-gutter-width:           48px;
 $grid-row-columns:            6;
 
-// Components
-//
-// Define common padding and border radius sizes and more.
+/** Components */
+
+/** Define common padding and border radius sizes and more. */
 
 $border-color:                $uw-gray-darker;
 
-// Typography
-//
-// Font, line-height, and color for body text, headings, and more.
+/** Typography */
 
-// stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/** Font, line-height, and color for body text, headings, and more. */
+
+/** stylelint-disable value-keyword-case */
+$font-family-sans-serif:      -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
+  "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
-// stylelint-enable value-keyword-case
 
-$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+/** stylelint-enable value-keyword-case */
+
+/** Assumes the browser default, typically `16px` */
+$font-size-base:              1rem;
 $font-size-xl:                $font-size-base * 1.375;
 $font-size-lg:                $font-size-base * 1.25;
 $font-size-md:                $font-size-base * 1.125;
 $font-size-sm:                $font-size-base * 0.875;
-
-// $line-height-base:            1.5;
-
-$headings-font-family:        "Jost", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family:        "Jost", -apple-system, blinkmacsystemfont, "Segoe UI",
+  roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  "Noto Color Emoji";
 $headings-font-weight:        700;
-
 $lead-font-weight:            400;
 
-// Spacing
-//
-// Control the default styling of most Bootstrap elements by modifying these
-// variables. Mostly focused on spacing.
-// You can add more entries to the $spacers map, should you need more variation.
+/** Spacing */
+
+/**
+Control the default styling of most Bootstrap elements by modifying these
+variables. Mostly focused on spacing.
+You can add more entries to the $spacers map, should you need more variation.
+*/
 
 $spacer: 1rem;
 
-// Navbar
+/** Navbar */
 
 $navbar-padding-y:                  $spacer / 2;
 $navbar-padding-x:                  null;
@@ -157,18 +186,18 @@ $navbar-light-color:                $black;
 $navbar-light-hover-color:          $primary;
 $navbar-light-active-color:         $primary;
 
-// Footer
+/** Footer */
 $footer-light-color: $uw-gray-darkest;
 $footer-light-text-color: $uw-gray-footer-text;
 $footer-light-text-hover-color: $uw-gray-footer-text-hover;
 
-// Cards
+/** Cards */
 
 $card-border-color:                 $gray-200;
 
-// Alerts
-//
-// Define alert colors, border radius, and padding.
+/** Alerts */
+
+/** Define alert colors, border radius, and padding. */
 
 $alert-padding-y:                   $spacer * 0.5;
 $alert-padding-x:                   $spacer * 1.5;
@@ -185,7 +214,7 @@ $alert-color-dark-bg: $uw-gray-darkest;
 $alert-color-dark-text: $uw-gray-footer-text;
 $alert-color-dark-link-hover: $uw-gray-footer-text-hover;
 
-// docsearch
+/** docsearch */
 $dropdown-config: (
   main-color: $purple,
   layout-type: normal,

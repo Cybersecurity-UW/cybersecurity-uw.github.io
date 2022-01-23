@@ -19,7 +19,7 @@
   -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
   transition: transform 0.5s ease, opacity 0.5s ease;
   position: relative;
-  width: calc(33.33333% - 9em);
+  width: calc(33.3333% - 9em);
   margin: 2.5em 0 0 2.5em;
 }
 
@@ -209,7 +209,7 @@ body.is-preload .tiles article {
   }
 
   .tiles article {
-    width: calc(33.33333% - 1.25em);
+    width: calc(33.3333% - 1.25em);
     margin: 1.25em 0 0 1.25em;
   }
 }
@@ -250,18 +250,18 @@ body.is-preload .tiles article {
 
   .tiles article {
     width: 100%;
-    margin: 1.25em 0 0 0;
+    margin: 1.25em 0 0;
   }
 }
 
 /* Main */
 
 #main {
-  padding: 0 0 6em 0;
+  padding: 0 0 6em;
 }
 
 @media screen and (max-width: 736px) {
   #main {
-    padding: 0 0 4em 0;
+    padding: 0 0 4em;
   }
 }
