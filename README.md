@@ -1,6 +1,6 @@
 # Cybersecurity UW website.
 
-![CSEC Website Screenshot](https://github.com/Cybersecurity-UW/cybersecurity-uw.github.io/images/screenshot.png)
+![CSEC Website Screenshot](https://raw.githubusercontent.com/Cybersecurity-UW/cybersecurity-uw.github.io/master/images/screenshot.png)
 
 Copyright (c) 2022 Cybersecurity UW @ University of Wisconsin-Madison.
 
