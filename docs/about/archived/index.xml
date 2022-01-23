@@ -1,35 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Archived on </title>
-    <link>https://www.cybersecurityuw.com/about/archived/</link>
-    <description>Recent content in Archived on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cybersecurityuw.com/about/archived/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spring 2021</title>
-      <link>https://www.cybersecurityuw.com/about/archived/2021-spring/</link>
-      <pubDate>Sat, 01 Jan 2022 00:02:00 +0000</pubDate>
-      
-      <guid>https://www.cybersecurityuw.com/about/archived/2021-spring/</guid>
-      <description>(These meeting details are migrated from the old website.)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Archived on</title><link>https://www.cybersecurityuw.com/about/archived/</link><description>Recent content in Archived on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cybersecurityuw.com/about/archived/index.xml" rel="self" type="application/rss+xml"/><item><title>Spring 2021</title><link>https://www.cybersecurityuw.com/about/archived/2021-spring/</link><pubDate>Sat, 01 Jan 2022 00:02:00 +0000</pubDate><guid>https://www.cybersecurityuw.com/about/archived/2021-spring/</guid><description>(These meeting details are migrated from the old website.)
 Hashing and Ciphers # Patrick Hwang • April 11, 2021
 Hi everyone,
 Cybersecurity UW will be meeting this Wednesday, April 14th at 5:30 PM. We will be going over several different types of ciphers and hashes
 See you soon!
 Fun with Networking API&amp;rsquo;s &amp;amp; First Hacker Discussion! # Patrick Hwang • March 24, 2021
-The next meeting will be on Wednesday 3/24 at 5:30 pm via the Microsoft Teams link below.</description>
-    </item>
-    
-    <item>
-      <title>Fall 2021</title>
-      <link>https://www.cybersecurityuw.com/about/archived/2021-fall/</link>
-      <pubDate>Sat, 01 Jan 2022 00:02:01 +0000</pubDate>
-      
-      <guid>https://www.cybersecurityuw.com/about/archived/2021-fall/</guid>
-      <description>Meetings and Topics Covered #    Date Location Topics Covered     2021-09-16 5:30PM CS 1257 &amp;ldquo;Soft Launch Meeting&amp;rdquo;, meet and greet   2021-09-30 5:30PM CS 1240 First meeting, Linux and command-line interfaces   2021-10-14 5:30PM CS 1257 NSA Codebreaker Challenge, NFC demo   2021-10-28 5:30PM CS 1257 Wifi-hacking demo with Aircrack and Hashcat   2021-11-11 5:30PM CS 1257 Industry jobs presentation, Wifi-hacking lab   2021-12-02 5:30PM EH 1209 Phishing, phishing tools   2021-09-16 5:30PM EH 1209 Last meeting, club social and Q&amp;amp;A    Email Communications # Last meeting of Fall semester # 📣 December 7, 2021 at 10:12 PM</description>
-    </item>
-    
-  </channel>
-</rss>
+The next meeting will be on Wednesday 3/24 at 5:30 pm via the Microsoft Teams link below.</description></item><item><title>Fall 2021</title><link>https://www.cybersecurityuw.com/about/archived/2021-fall/</link><pubDate>Sat, 01 Jan 2022 00:02:01 +0000</pubDate><guid>https://www.cybersecurityuw.com/about/archived/2021-fall/</guid><description>Meetings and Topics Covered # Date Location Topics Covered 2021-09-16 5:30PM CS 1257 &amp;ldquo;Soft Launch Meeting&amp;rdquo;, meet and greet 2021-09-30 5:30PM CS 1240 First meeting, Linux and command-line interfaces 2021-10-14 5:30PM CS 1257 NSA Codebreaker Challenge, NFC demo 2021-10-28 5:30PM CS 1257 Wifi-hacking demo with Aircrack and Hashcat 2021-11-11 5:30PM CS 1257 Industry jobs presentation, Wifi-hacking lab 2021-12-02 5:30PM EH 1209 Phishing, phishing tools 2021-09-16 5:30PM EH 1209 Last meeting, club social and Q&amp;amp;A Email Communications # Last meeting of Fall semester # 📣 December 7, 2021 at 10:12 PM</description></item></channel></rss>

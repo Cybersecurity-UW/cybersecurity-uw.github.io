@@ -1,12 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: ""
 description: ""
 lead: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-weight: 50
-authors: []
+authors: [""]
 ---
 
-{{< img src="{{ .Name | urlize }}.jpg" alt="{{ replace .Name "-" " " | title }}" caption="{{ replace .Name "-" " " | title }}" class="wide" >}}
