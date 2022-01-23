@@ -25,43 +25,38 @@ $ git clone -b csec_website https://github.com/Cybersecurity-UW/cybersecurity-uw
 ```
 3. Following installation, **run `npm install`** to download needed modules. This should also install Hugo, if it does not you can follow [these directions](https://gohugo.io/getting-started/installing/).
 
-:tada: You're done! `npm start` will start the local development environment, usually at http://localhost:1313.
+:tada: You're done! `hugo serve` will start the local development environment, usually at http://localhost:1313.
 
 ## Adding blog posts
-All blog posts are located in the **/contents/blog/** folder.
-A sub-folder in that folder contains a single post.
+All blog posts are located in `/contents/blog/`.
+A sub-folder in that directory contains a single post.
 
-To create one, run the following command while at the root of the repo:
+1. Create a new post by running the following command at the root of the repo:
+- (Replace **NAME_OF_POST** with the name of the new post without any spaces.)
 ```bash
 $ hugo new -k blog blog/NAME_OF_POST/index.md
 ```
-(Replace **NAME_OF_POST** with the name of the new post without any spaces.)
-
-Notice that a new folder has been created inside the blog folder.
-
-Next, add the desired title, description, and the author name to **index.md** in the newly created post folder. Then, compose the post using markdown syntax.
-
-If you wish to add an image, you may do so by putting an image file in the same directory. Reference **hello-world** post as an example.
-
-Finally, after you have finished composing the post, change the draft status from **true** to **false**.
+2. Add the desired title, description, and the author name to `index.md`, and compose the post using markdown.
+- If you wish to add an image, you may do so by putting an image file in the same directory.
+3. Finally, after you have finished composing the post, change the draft status from **true** to **false**.
 
 ## Committing changes
 Before you push commits, please do the following:
 
-First, check that the site looks as you want it to in your browser.
+1. Check that the site looks as you want it to in your browser.
 
 ```bash
-$ npm start  # local development server, see output
+$ hugo serve  # local development server, see output
 ```
 
-Second, to keep styling consistent, verify that your edits match the style guide inherited from the theme project.
+2. To keep styling consistent, verify that your edits match the style guide inherited from the theme project.
 ```bash
-$ npm run lint  # check for style issues, please fix and re-check until none are identified
+$ npm test  # check for style issues, please fix and re-check until none are identified
 ```
 
-Finally, double-check that the site builds without error. The generated static website contents will be stored in the **/docs** folder.
+3. Double-check that the site builds without error. The generated static website contents will be stored in the `/docs` folder.
 
 ```bash
 $ npm run clean  # delete reminants of previous build
-$ npm run build  # build the site from the current code
+$ hugo  # build the site from the current code
 ```
