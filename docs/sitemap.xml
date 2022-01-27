@@ -66,13 +66,6 @@
   </url>
   
   <url>
-    <loc>https://www.cybersecurityuw.com/people/</loc>
-    <lastmod>2021-12-31T21:22:16-06:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.cybersecurityuw.com/about/about-us/</loc>
     <lastmod>2022-01-18T00:18:40-06:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -96,6 +89,12 @@
   <url>
     <loc>https://www.cybersecurityuw.com/</loc>
     <lastmod>2022-01-18T19:31:03-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cybersecurityuw.com/people/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
