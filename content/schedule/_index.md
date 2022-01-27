@@ -18,7 +18,7 @@ layout: "single"
     },
     events: [
       {
-        title: 'Meeting 1',
+        title: 'WiFi WPS Pin Attacks - Mechanical Engineering 1163',
         url: '#',
         start: '2022-01-27T17:30:00'
       },
