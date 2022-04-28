@@ -11,12 +11,12 @@ description = "Cybersecurity UW is a student organization that allows its member
 
 ## Open Graph
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app" # TODO
+domainTLD = "cybersecurityuw.com"
 titleHome = "Cybersecurity UW"
 
 ## Twitter Cards
-twitterSite = "@getdoks" # TODO
-twitterCreator = "@henkverlinde" # TODO
+twitterSite = "" # TODO
+twitterCreator = "" # TODO
 
 ## JSON-LD
 # schemaType = "Person"
@@ -25,13 +25,13 @@ schemaName = "Cybersecurity UW"
 schemaAuthor = ["Michael Noguera", "Paul Chung"]
 schemaAuthorGitHub = ["https://github.com/michaelnoguera", "https://github.com/pywc"]
 schemaLocale = "en-US"
-#schemaLogo = "logo-doks.png" # TODO
+#schemaLogo = "logo-csec.svg" # TODO
 #schemaLogoWidth = 512
 #schemaLogoHeight = 512
-#schemaImage = "doks.png" # TODO
+#schemaImage = "logo-csec.svg" # TODO
 #schemaImageWidth = 1280
 #schemaImageHeight = 640
-#schemaTwitter = "https://twitter.com/getdoks"
+#schemaTwitter = ""
 #schemaLinkedIn = ""
 schemaGitHub = "https://github.com/Cybersecurity-UW"
 #schemaSection = "blog"
