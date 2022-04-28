@@ -1,6 +1,6 @@
 ---
 title: "We're here"
-draft: false
+draft: true # Disable page to prevent form spam, TODO: reenable when solved
 images: []
 ---
 

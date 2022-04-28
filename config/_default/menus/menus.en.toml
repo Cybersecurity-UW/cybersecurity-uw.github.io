@@ -13,10 +13,11 @@
   url = "/schedule/"
   weight = 40
 
-[[main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 50
+# Disable page to prevent form spam, TODO: reenable when solved
+#[[main]]
+#  name = "Contact"
+#  url = "/contact/"
+#  weight = 50
 
 [[social]]
   name = "GitHub"

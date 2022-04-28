@@ -15,4 +15,5 @@ layout: "single"
 
 ## :bus: Interested in joining?
 
-Please fill out the [interest form](contact) or contact us via [{{< email user="csec" domain="ischool.wisc.edu" >}}](mailto:csec@ischool.wisc.edu).
+Look for us at the spring and fall org fairs on campus!
+We are also happy to have you join us in the middle of the semester. You can contact us via email at `{{< email user="csec" domain="ischool.wisc.edu" >}}`, and we will add you to our list.

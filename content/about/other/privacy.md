@@ -23,8 +23,4 @@ __TL;DR__: We do not use cookies and we do not collect any personal data.
 - No information is mined and harvested for personal and behavioral trends.
 - No information is monetized.
 
-## Contact us
-
-[Contact us]({{< relref "/contact" >}}) if you have any questions.
-
 Effective Date: _January 17th 2022_
