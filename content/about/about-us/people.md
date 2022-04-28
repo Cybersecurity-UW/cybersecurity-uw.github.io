@@ -91,7 +91,7 @@ showEditLink: false
   <div class="col-md-3 col-sm-6">
    <div class="our-team">
     <div class="pic">
-     <img src="/images/people/default.jpg">
+     <img src="/images/people/michael.png">
     </div>
     <h3 class="title">Michael Noguera</h3>
     <span class="post">Officer of Technology</span>
