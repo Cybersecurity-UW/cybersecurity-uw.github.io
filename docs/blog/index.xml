@@ -1,2 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on</title><link>https://www.cybersecurityuw.com/blog/</link><description>Recent content in Blog on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:45:55 +0000</lastBuildDate><atom:link href="https://www.cybersecurityuw.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World 👋</title><link>https://www.cybersecurityuw.com/blog/2022/01/hello-world/</link><pubDate>Mon, 17 Jan 2022 00:10:00 +0000</pubDate><guid>https://www.cybersecurityuw.com/blog/2022/01/hello-world/</guid><description>Introducing the new homepage of Cybersecurity UW, newly built with Hugo, Doks, and with some secret ingredients.
-print(&amp;quot;Hello World!&amp;quot;) Definitely better than what it used to look like, isn&amp;rsquo;t it?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on </title>
+    <link>https://www.cybersecurityuw.com/blog/</link>
+    <description>Recent content in Blog on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:45:55 +0000</lastBuildDate><atom:link href="https://www.cybersecurityuw.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fall 2022 - First Meeting</title>
+      <link>https://www.cybersecurityuw.com/blog/2022/09/fall-2022-first-meeting/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cybersecurityuw.com/blog/2022/09/fall-2022-first-meeting/</guid>
+      <description>Hello Cybersecurity UW!
+We hope everyone is having a good start to the Fall 2022 semester! Our Kickoff meeting will be on Wednesday 9/21, from 5:30pm to 6:30pm. We are still figuring out the location, but it should be in the CS building. We will send an email with the location later this week.
+At this meeting, we will go over &amp;ldquo;Open Source Intelligence&amp;rdquo;. Ever wonder how much information you can find online?</description>
+    </item>
+    
+    <item>
+      <title>Hello World 👋</title>
+      <link>https://www.cybersecurityuw.com/blog/2022/01/hello-world/</link>
+      <pubDate>Mon, 17 Jan 2022 00:10:00 +0000</pubDate>
+      
+      <guid>https://www.cybersecurityuw.com/blog/2022/01/hello-world/</guid>
+      <description>Introducing the new homepage of Cybersecurity UW, newly built with Hugo, Doks, and with some secret ingredients.
+print(&amp;quot;Hello World!&amp;quot;) Definitely better than what it used to look like, isn&amp;rsquo;t it? </description>
+    </item>
+    
+  </channel>
+</rss>

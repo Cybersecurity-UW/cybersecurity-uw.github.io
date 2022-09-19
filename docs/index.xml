@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity UW on</title><link>https://www.cybersecurityuw.com/</link><description>Recent content in Cybersecurity UW on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Copyright (c) 2020-2022 Michael Noguera, Paul Chung, and site contributors</copyright><atom:link href="https://www.cybersecurityuw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://www.cybersecurityuw.com/about/</link><pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate><guid>https://www.cybersecurityuw.com/about/</guid><description/></item><item><title>Blog</title><link>https://www.cybersecurityuw.com/blog/</link><pubDate>Tue, 06 Oct 2020 08:45:55 +0000</pubDate><guid>https://www.cybersecurityuw.com/blog/</guid><description/></item><item><title>Schedule</title><link>https://www.cybersecurityuw.com/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.cybersecurityuw.com/schedule/</guid><description>document.addEventListener('DOMContentLoaded', function() { var calendarEl = document.getElementById('calendar'); var calendar = new FullCalendar.Calendar(calendarEl, { initialView: 'dayGridMonth', headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,listMonth' }, events: [ { title: 'WiFi WPS Pin Attacks - Mechanical Engineering 1163', url: '#', start: '2022-01-27T17:30:00' }, { title: 'Meeting 2', url: '#', start: '2022-02-10T17:30:00' }, { title: 'Meeting 3', url: '#', start: '2022-02-24T17:30:00' }, { title: 'Meeting 4', url: '#', start: '2022-03-07T17:30:00' }, { title: 'Meeting 5', url: '#', start: '2022-03-31T17:30:00' }, { title: 'Meeting 6', url: '#', start: '2022-04-14T17:30:00' }, { title: 'Meeting 7', url: '#', start: '2022-04-28T17:30:00' }, ], }); let details = navigator.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity UW on </title>
+    <link>https://www.cybersecurityuw.com/</link>
+    <description>Recent content in Cybersecurity UW on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2020-2022 Michael Noguera, Paul Chung, and site contributors</copyright>
+    
+        <atom:link href="https://www.cybersecurityuw.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://www.cybersecurityuw.com/about/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate>
+      
+      <guid>https://www.cybersecurityuw.com/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.cybersecurityuw.com/blog/</link>
+      <pubDate>Tue, 06 Oct 2020 08:45:55 +0000</pubDate>
+      
+      <guid>https://www.cybersecurityuw.com/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://www.cybersecurityuw.com/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cybersecurityuw.com/schedule/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
