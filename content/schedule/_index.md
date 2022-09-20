@@ -19,7 +19,7 @@ layout: "single"
     events: [
       {
         title: 'Open Source Intelligence',
-        url: 'https://www.cybersecurityuw.com/blog/2022/09/2022_fall_01/',
+        url: 'https://www.cybersecurityuw.com/blog/2022/09/fall-2022-first-meeting/',
         start: '2022-09-21T17:30:00'
       },
     ],
