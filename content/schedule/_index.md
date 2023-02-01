@@ -18,9 +18,34 @@ layout: "single"
     },
     events: [
       {
-        title: 'Open Source Intelligence',
-        url: 'https://www.cybersecurityuw.com/blog/2022/09/fall-2022-first-meeting/',
-        start: '2022-09-21T17:30:00'
+        title: 'Mr. Robot 1',
+        url: 'https://www.cybersecurityuw.com/blog/2023/02/spring-2023-first-mr.-robot-group-watch-event/',
+        start: '2023-02-01T19:00:00'
+      },
+      {
+        title: 'First Meeting',
+        url: '',
+        start: '2023-02-07T17:30:00'
+      },
+      {
+        title: 'Mr. Robot 2',
+        url: '',
+        start: '2023-02-08T19:00:00'
+      },
+      {
+        title: 'Mr. Robot 3',
+        url: '',
+        start: '2023-02-15T19:00:00'
+      },
+      {
+        title: 'Second Meeting',
+        url: '',
+        start: '2023-02-22T17:30:00'
+      },
+      {
+        title: 'Mr. Robot 4',
+        url: '',
+        start: '2023-02-22T19:00:00'
       },
     ],
   });
