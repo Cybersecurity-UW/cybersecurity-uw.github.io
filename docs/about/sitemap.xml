@@ -2,13 +2,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://www.cybersecurityuw.com/about/archived/</loc>
-      <lastmod>2022-01-18T00:18:40-06:00</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
       <loc>https://www.cybersecurityuw.com/about/other/</loc>
       <lastmod>2022-01-18T00:18:40-06:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -22,18 +15,6 @@
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.cybersecurityuw.com/about/archived/2021-spring/</loc>
-        <lastmod>2022-01-18T13:13:22-06:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://www.cybersecurityuw.com/about/archived/2021-fall/</loc>
-        <lastmod>2022-01-18T13:13:22-06:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
         <loc>https://www.cybersecurityuw.com/about/other/bylaws/</loc>
         <lastmod>2022-01-18T13:13:22-06:00</lastmod>
         <changefreq>weekly</changefreq>

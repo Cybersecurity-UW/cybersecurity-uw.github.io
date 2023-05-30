@@ -32,9 +32,14 @@
 	margin: 0 0 7px 0;
 }
 
-.our-team .post {
+.our-team .role {
 	color: #22a2c9;
 	display: block;
 	font-size: 15px;
-	margin-bottom: 15px;
+}
+
+.our-team .desc {
+	color: #ffffffb7;
+	display: block;
+	font-size: 13px;
 }

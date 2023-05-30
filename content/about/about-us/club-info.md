@@ -34,9 +34,3 @@ Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-
 ## Contact
 
 - :email: E-mail: csec@ischool.wisc.edu
-
-## Acknowledgement
-
-- This website was made possible by the ASM's financial support.
-
-- <img src='/asm_white.png' id='asm_logo' style='width: 400px;' />

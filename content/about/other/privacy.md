@@ -23,4 +23,4 @@ __TL;DR__: We do not use cookies and we do not collect any personal data.
 - No information is mined and harvested for personal and behavioral trends.
 - No information is monetized.
 
-Effective Date: _January 17th 2022_
+Effective Date: _May 29th 2023_
