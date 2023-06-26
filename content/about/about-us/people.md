@@ -30,7 +30,7 @@ showEditLink: false
   <div class="col-md-4">
    <div class="our-team">
     <div class="pic">
-     <img src="/images/people/default.jpg">
+     <img src="/images/people/luke.jpg">
     </div>
     <h3 class="title">Luke Blattner</h3>
     <span class="role">Vice President</span>
@@ -48,7 +48,7 @@ showEditLink: false
   <div class="col-md-4">
    <div class="our-team">
     <div class="pic">
-     <img src="/images/people/default.jpg">
+     <img src="/images/people/tanush.jpg">
     </div>
     <h3 class="title">Tanush Vaddireddy</h3>
     <span class="role">Head Officer</span>
@@ -81,7 +81,7 @@ showEditLink: false
   <div class="col-md-4">
    <div class="our-team">
     <div class="pic">
-     <img src="/images/people/default.jpg">
+     <img src="/images/people/jacob.jpg">
     </div>
     <h3 class="title">Jacob Sandum</h3>
     <span class="role">Officer</span>
@@ -99,18 +99,18 @@ showEditLink: false
      <img src="/images/people/dorothea.jpg">
     </div>
     <h3 class="title">Dorothea Salo</h3>
-    <span class="role">Head Advisor</span>
+    <span class="role">Advisor</span>
     <span class="desc">Distinguished Faculty Associate</span>
    </div>
   </div>
   <div class="col-md-4">
    <div class="our-team">
     <div class="pic">
-     <img src="/images/people/hakan.jpg">
+     <img src="/images/people/rahul.jpg">
     </div>
-    <h3 class="title">Hakan Dingenc</h3>
+    <h3 class="title">Rahul Chatterjee</h3>
     <span class="role">Advisor</span>
-    <span class="desc">Graduate Student</span>
+    <span class="desc">Assistant Professor</span>
    </div>
   </div>
  </div>
@@ -145,7 +145,7 @@ showEditLink: false
     <div class="col-md-4">
       <div class="our-team">
         <div class="pic">
-          <img src="/images/people/default.jpg">
+          <img src="/images/people/elliot.jpg">
         </div>
         <h3 class="title">Elliot Asmus</h3>
         <span class="role">Leadership</span>
