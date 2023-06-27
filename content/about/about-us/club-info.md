@@ -29,7 +29,7 @@ If you want to join the club, send us an email and we will add you to our mailin
 
 ## Advisor Information
 
-Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-dorothea/) from the [Information School](https://ischool.wisc.edu).
+Our faculty advisor is [Dorothea Salo](https://ischool.wisc.edu/blog/staff/salo-dorothea/) from the [Information School](https://ischool.wisc.edu) and [Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/) from the [Computer Sciences Department](https://cs.wisc.edu).
 
 ## Contact
 
