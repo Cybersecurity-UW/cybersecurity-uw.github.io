@@ -113,6 +113,16 @@ showEditLink: false
     <span class="desc">Assistant Professor</span>
    </div>
   </div>
+  <div class="col-md-4">
+   <div class="our-team">
+    <div class="pic">
+     <img src="/images/people/hakan.jpg">
+    </div>
+    <h3 class="title">Hakan Dingenc</h3>
+    <span class="role">Advisor</span>
+    <span class="desc">Graduate Student</span>
+   </div>
+  </div>
  </div>
 </div>
 
